@@ -1,0 +1,93 @@
+[
+  {
+    "term": "Vật chất",
+    "pinyinOrAlias": "Matter",
+    "chapter": "Chương II",
+    "shortDef": "Thực tại khách quan đem lại cho con người trong cảm giác, tồn tại độc lập với ý thức.",
+    "extended": "Phạm trù triết học do Lênin định nghĩa: Tồn tại khách quan, có thể nhận thức được và phản ánh vào ý thức."
+  },
+  {
+    "term": "Ý thức",
+    "pinyinOrAlias": "Consciousness",
+    "chapter": "Chương II",
+    "shortDef": "Sự phản ánh năng động, sáng tạo thế giới khách quan vào trong bộ óc người.",
+    "extended": "Là hình ảnh chủ quan của thế giới khách quan, mang bản chất xã hội và gắn liền với lao động, ngôn ngữ."
+  },
+  {
+    "term": "Độ",
+    "pinyinOrAlias": "Measure / Range",
+    "chapter": "Chương II",
+    "shortDef": "Giới hạn mà trong đó sự thay đổi về lượng chưa làm thay đổi căn bản về chất.",
+    "extended": "Khái niệm trong quy luật Lượng - Chất, duy trì sự thống nhất ổn định giữa lượng và chất."
+  },
+  {
+    "term": "Điểm nút",
+    "pinyinOrAlias": "Nodal Point",
+    "chapter": "Chương II",
+    "shortDef": "Giới hạn tột cùng mà tại đó sự tích lũy về lượng dẫn đến sự biến đổi căn bản về chất.",
+    "extended": "Thời điểm diễn ra bước nhảy để chuyển hóa sang chất mới."
+  },
+  {
+    "term": "Bước nhảy",
+    "pinyinOrAlias": "Leap",
+    "chapter": "Chương II",
+    "shortDef": "Giai đoạn chuyển hóa về chất của sự vật do sự tích lũy về lượng trước đó gây nên.",
+    "extended": "Có thể là bước nhảy đột biến hoặc dần dần, toàn bộ hoặc cục bộ."
+  },
+  {
+    "term": "Mâu thuẫn biện chứng",
+    "pinyinOrAlias": "Dialectical Contradiction",
+    "chapter": "Chương II",
+    "shortDef": "Sự thống nhất và đấu tranh giữa các mặt đối lập bên trong cùng một sự vật.",
+    "extended": "Nguồn gốc và động lực nội tại của mọi quá trình vận động và phát triển."
+  },
+  {
+    "term": "Phủ định biện chứng",
+    "pinyinOrAlias": "Dialectical Negation",
+    "chapter": "Chương II",
+    "shortDef": "Sự tự phủ định, tạo tiền đề cho sự phát triển tiếp theo với 2 đặc tính: khách quan và kế thừa.",
+    "extended": "Khuynh hướng phát triển tiến lên theo hình xoáy ốc (phủ định của phủ định)."
+  },
+  {
+    "term": "Lực lượng sản xuất (LLSX)",
+    "pinyinOrAlias": "Productive Forces",
+    "chapter": "Chương III",
+    "shortDef": "Mối quan hệ giữa con người với tự nhiên trong quá trình sản xuất (gồm TLSX và Người lao động).",
+    "extended": "Yếu tố nội dung động nhất, cách mạng nhất trong một phương thức sản xuất."
+  },
+  {
+    "term": "Quan hệ sản xuất (QHSX)",
+    "pinyinOrAlias": "Relations of Production",
+    "chapter": "Chương III",
+    "shortDef": "Quan hệ giữa người với người trong quá trình sản xuất (Sở hữu, Quản lý, Phân phối).",
+    "extended": "Hình thức xã hội của sản xuất, phải phù hợp với trình độ phát triển của LLSX."
+  },
+  {
+    "term": "Cơ sở hạ tầng (CSHT)",
+    "pinyinOrAlias": "Economic Base / Infrastructure",
+    "chapter": "Chương III",
+    "shortDef": "Toàn bộ những quan hệ sản xuất hợp thành cơ cấu kinh tế của một xã hội nhất định.",
+    "extended": "Bao gồm QHSX thống trị, QHSX tàn dư và QHSX mầm mống tương lai."
+  },
+  {
+    "term": "Kiến trúc thượng tầng (KTTT)",
+    "pinyinOrAlias": "Superstructure",
+    "chapter": "Chương III",
+    "shortDef": "Toàn bộ hệ thống tư tưởng (chính trị, pháp quyền, đạo đức...) và các thiết chế tương ứng (Nhà nước...).",
+    "extended": "Được xây dựng trên cơ sở hạ tầng nhất định và có chức năng bảo vệ CSHT đó."
+  },
+  {
+    "term": "Hình thái Kinh tế - Xã hội",
+    "pinyinOrAlias": "Socio-economic Formation",
+    "chapter": "Chương III",
+    "shortDef": "Một xã hội ở từng giai đoạn lịch sử với LLSX, CSHT và KTTT tương ứng.",
+    "extended": "Lịch sử loài người là quá trình lịch sử - tự nhiên thay thế tuần tự các hình thái KT-XH."
+  },
+  {
+    "term": "Thực tiễn",
+    "pinyinOrAlias": "Praxis / Practice",
+    "chapter": "Chương II",
+    "shortDef": "Toàn bộ hoạt động vật chất - cảm tính có mục đích, mang tính lịch sử - xã hội của con người.",
+    "extended": "Bao gồm 3 hình thức cơ bản: Sản xuất vật chất (cơ bản nhất), Hoạt động chính trị - xã hội, Thực nghiệm khoa học."
+  }
+]

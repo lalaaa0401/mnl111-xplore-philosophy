@@ -1,0 +1,56 @@
+[
+  {
+    "id": "chap-01",
+    "number": "Chương I",
+    "title": "Khái luận về Triết học & Triết học Mác - Lênin",
+    "tagline": "Khởi nguồn của tư duy triết học và thế giới quan khoa học",
+    "coverImage": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80",
+    "badge": "Nhập môn",
+    "description": "Nghiên cứu nguồn gốc nhận thức - xã hội của triết học, vấn đề cơ bản của triết học, sự ra đời và bước ngoặt cách mạng của Triết học Mác - Lênin.",
+    "keyTopics": [
+      "Nguồn gốc nhận thức & xã hội của triết học",
+      "Vấn đề cơ bản của triết học & 2 mặt",
+      "Chủ nghĩa duy vật & Chủ nghĩa duy tâm",
+      "Điều kiện kinh tế - xã hội & tiền đề lý luận của CN Mác",
+      "Đối tượng & chức năng của Triết học Mác - Lênin"
+    ],
+    "totalFlashcards": 10,
+    "totalQuizQuestions": 10
+  },
+  {
+    "id": "chap-02",
+    "number": "Chương II",
+    "title": "Chủ nghĩa Duy vật Biện chứng",
+    "tagline": "Bức tranh toàn cảnh về thế giới vật chất và sự vận động biện chứng",
+    "coverImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+    "badge": "Trọng tâm cốt lõi",
+    "description": "Vật chất và ý thức; Phép biện chứng duy vật với 2 Nguyên lý phổ biến, 3 Quy luật cơ bản và 6 Cặp phạm trù then chốt; Lý luận nhận thức duy vật biện chứng.",
+    "keyTopics": [
+      "Định nghĩa vật chất của Lênin & Phương thức tồn tại",
+      "Nguồn gốc, bản chất & kết cấu của Ý thức",
+      "2 Nguyên lý: Mối liên hệ phổ biến & Sự phát triển",
+      "3 Quy luật: Lượng - Chất, Mâu thuẫn, Phủ định của phủ định",
+      "6 Cặp phạm trù & Thực tiễn - Nhận thức"
+    ],
+    "totalFlashcards": 16,
+    "totalQuizQuestions": 15
+  },
+  {
+    "id": "chap-03",
+    "number": "Chương III",
+    "title": "Chủ nghĩa Duy vật Lịch sử",
+    "tagline": "Quy luật vận động và phát triển của xã hội loài người",
+    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+    "badge": "Ứng dụng thực tiễn",
+    "description": "Học thuyết hình thái kinh tế - xã hội, quy luật quan hệ sản xuất phù hợp lực lượng sản xuất, cơ sở hạ tầng & kiến trúc thượng tầng, giai cấp, nhà nước và con người.",
+    "keyTopics": [
+      "Học thuyết Hình thái kinh tế - xã hội",
+      "Quy luật QHSX phù hợp với trình độ phát triển của LLSX",
+      "Biện chứng giữa Cơ sở hạ tầng & Kiến trúc thượng tầng",
+      "Giai cấp, Đấu tranh giai cấp & Nhà nước",
+      "Tồn tại xã hội & Ý thức xã hội, Bản chất con người"
+    ],
+    "totalFlashcards": 12,
+    "totalQuizQuestions": 12
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "q-101",
+    "chapterId": "chap-01",
+    "difficulty": "easy",
+    "question": "Vấn đề cơ bản của triết học là vấn đề về mối quan hệ giữa yếu tố nào sau đây?",
+    "options": [
+      "Con người với giới tự nhiên",
+      "Tư duy với tồn tại (ý thức và vật chất)",
+      "Lý luận với thực tiễn",
+      "Kinh tế với chính trị"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Theo Ph.Ăngghen, vấn đề cơ bản lớn của mọi triết học là vấn đề mối quan hệ giữa tư duy và tồn tại, hay giữa ý thức và vật chất.",
+    "reference": "Giáo trình Triết học Mác - Lênin (Bộ GD&ĐT), Chương I"
+  },
+  {
+    "id": "q-102",
+    "chapterId": "chap-01",
+    "difficulty": "medium",
+    "question": "Hạt nhân hợp lý trong triết học của G.W.F. Hegel mà C.Mác và Ph.Ăngghen đã kế thừa là gì?",
+    "options": [
+      "Chủ nghĩa duy vật vô thần",
+      "Quan niệm về thế giới quan tôn giáo",
+      "Phép biện chứng",
+      "Chủ nghĩa duy tâm khách quan"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "C.Mác và Ph.Ăngghen đã cải tạo, lọc bỏ tính duy tâm thần bí để kế thừa 'hạt nhân hợp lý' là Phép biện chứng của Hegel.",
+    "reference": "Giáo trình Triết học Mác - Lênin (Bộ GD&ĐT), Chương I"
+  },
+  {
+    "id": "q-201",
+    "chapterId": "chap-02",
+    "difficulty": "hard",
+    "question": "Thuộc tính cơ bản nhất, phổ biến nhất của mọi dạng vật chất được V.I.Lênin xác định trong định nghĩa về vật chất là gì?",
+    "options": [
+      "Có khối lượng và kích thước xác định",
+      "Tồn tại khách quan, độc lập với ý thức con người",
+      "Luôn luôn vận động và biến đổi không ngừng",
+      "Có khả năng tự nhân đôi và phản xạ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Theo định nghĩa của Lênin, 'thực tại khách quan' (tồn tại khách quan bên ngoài và không lệ thuộc vào cảm giác/ý thức) là tiêu chuẩn căn bản nhất để phân biệt vật chất với ý thức.",
+    "reference": "Giáo trình Triết học Mác - Lênin, Chương II - Mục Vật chất và Ý thức"
+  },
+  {
+    "id": "q-202",
+    "chapterId": "chap-02",
+    "difficulty": "medium",
+    "question": "Yếu tố nào đóng vai trò là nguồn gốc trực tiếp và quyết định nhất đối với sự ra đời của ý thức?",
+    "options": [
+      "Bộ óc người phát triển hoàn thiện",
+      "Sự tác động của giới tự nhiên",
+      "Lao động và ngôn ngữ trong đời sống xã hội",
+      "Cảm giác và trực giác của con người"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Trong nguồn gốc xã hội của ý thức, lao động và ngôn ngữ (tiếng nói, chữ viết) là hai đòn bẩy trực tiếp và quyết định nhất biến vượn thành người và hình thành ý thức xã hội.",
+    "reference": "Giáo trình Triết học Mác - Lênin, Chương II"
+  },
+  {
+    "id": "q-203",
+    "chapterId": "chap-02",
+    "difficulty": "medium",
+    "question": "Quy luật nào của phép biện chứng duy vật vạch ra CÁCH THỨC của sự vận động và phát triển?",
+    "options": [
+      "Quy luật Thống nhất và đấu tranh của các mặt đối lập",
+      "Quy luật Chuyển hóa từ sự thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại",
+      "Quy luật Phủ định của phủ định",
+      "Quy luật Về mối liên hệ phổ biến"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Quy luật Lượng - Chất chỉ ra CÁCH THỨC; Quy luật Mâu thuẫn chỉ ra NGUỒN GỐC/ĐỘNG LỰC; Quy luật Phủ định của phủ định chỉ ra KHUYNH HƯỚNG của sự phát triển.",
+    "reference": "Giáo trình Triết học Mác - Lênin, Chương II - 3 Quy luật cơ bản"
+  },
+  {
+    "id": "q-204",
+    "chapterId": "chap-02",
+    "difficulty": "hard",
+    "question": "Khoảng giới hạn mà trong đó sự thay đổi về lượng chưa làm thay đổi căn bản về chất của sự vật được gọi là gì?",
+    "options": [
+      "Điểm nút",
+      "Bước nhảy",
+      "Độ",
+      "Trạng thái cân bằng"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Độ' là phạm trù triết học chỉ khoảng giới hạn trong đó sự thay đổi về lượng chưa làm thay đổi căn bản về chất của sự vật, hiện tượng.",
+    "reference": "Giáo trình Triết học Mác - Lênin, Chương II - Quy luật Lượng - Chất"
+  },
+  {
+    "id": "q-205",
+    "chapterId": "chap-02",
+    "difficulty": "medium",
+    "question": "Phủ định biện chứng có hai đặc trưng cơ bản là gì?",
+    "options": [
+      "Tính chủ quan và tính xóa bỏ hoàn toàn",
+      "Tính khách quan và tính kế thừa",
+      "Tính ngẫu nhiên và tính chu kỳ",
+      "Tính bảo thủ và tính đột biến"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Phủ định biện chứng là sự tự phủ định xuất phát từ mâu thuẫn nội tại (Tính khách quan) và giữ lại những yếu tố tích cực của cái cũ để phát triển cái mới (Tính kế thừa).",
+    "reference": "Giáo trình Triết học Mác - Lênin, Chương II - Quy luật Phủ định của phủ định"
+  },
+  {
+    "id": "q-301",
+    "chapterId": "chap-03",
+    "difficulty": "medium",
+    "question": "Trong lực lượng sản xuất, yếu tố nào đóng vai trò năng động và cách mạng nhất, đồng thời là nhân tố quyết định nhất?",
+    "options": [
+      "Đối tượng lao động",
+      "Công cụ lao động",
+      "Người lao động với kỹ năng và tri thức",
+      "Phương tiện vận chuyển và kho bãi"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Công cụ lao động là yếu tố năng động, cách mạng nhất; nhưng Người lao động mới là chủ thể sáng tạo và là yếu tố giữ vai trò quyết định hàng đầu trong LLSX.",
+    "reference": "Giáo trình Triết học Mác - Lênin, Chương III"
+  },
+  {
+    "id": "q-302",
+    "chapterId": "chap-03",
+    "difficulty": "hard",
+    "question": "Trong mối quan hệ giữa Cơ sở hạ tầng và Kiến trúc thượng tầng, yếu tố nào trong kiến trúc thượng tầng có quyền lực mạnh nhất để bảo vệ cơ sở hạ tầng?",
+    "options": [
+      "Tổ chức tôn giáo và giáo hội",
+      "Nhà nước",
+      "Các đoàn thể xã hội",
+      "Hệ thống đạo đức và tập quán"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Nhà nước là bộ máy quyền lực đặc biệt của giai cấp thống trị, có công cụ bạo lực và pháp luật để bảo vệ cơ sở hạ tầng sinh ra nó.",
+    "reference": "Giáo trình Triết học Mác - Lênin, Chương III"
+  },
+  {
+    "id": "q-303",
+    "chapterId": "chap-03",
+    "difficulty": "medium",
+    "question": "Khẳng định nào sau đây là luận điểm kinh điển của C.Mác về bản chất con người?",
+    "options": [
+      "Con người là một sinh vật có lý tính và biết chế tạo công cụ",
+      "Bản chất con người là thiện khi mới sinh ra",
+      "Trong tính hiện thực của nó, bản chất con người là tổng hòa những quan hệ xã hội",
+      "Con người là thước đo của vạn vật"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Trong 'Luận cương về Phoi-ơ-bắc' (1845), C.Mác khẳng định: 'Bản chất con người không phải là một cái trừu tượng cố hữu của cá nhân riêng biệt. Trong tính hiện thực của nó, bản chất con người là tổng hòa những quan hệ xã hội'.",
+    "reference": "Giáo trình Triết học Mác - Lênin, Chương III"
+  }
+]

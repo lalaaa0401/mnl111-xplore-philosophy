@@ -1,0 +1,192 @@
+[
+  {
+    "id": "fc-101",
+    "chapterId": "chap-01",
+    "category": "Khái luận Triết học",
+    "term": "Vấn đề cơ bản của Triết học",
+    "definition": "Vấn đề cơ bản lớn của mọi triết học, đặc biệt là triết học hiện đại, là vấn đề mối quan hệ giữa tư duy và tồn tại (giữa ý thức và vật chất / giữa tinh thần và giới tự nhiên).",
+    "keyTakeaways": [
+      "Mặt thứ nhất (Bản thể luận): Giữa vật chất và ý thức, cái nào có trước, cái nào có sau, cái nào quyết định cái nào?",
+      "Mặt thứ hai (Nhận thức luận): Con người có khả năng nhận thức được thế giới hay không?"
+    ],
+    "mnemonicTip": "Nhớ công thức: 1 Vấn đề - 2 Mặt (Bản thể luận & Nhận thức luận) - 2 Khuynh hướng (Duy vật & Duy tâm)."
+  },
+  {
+    "id": "fc-102",
+    "chapterId": "chap-01",
+    "category": "Khái luận Triết học",
+    "term": "3 Hình thức phát triển của Chủ nghĩa Duy vật",
+    "definition": "Trong lịch sử triết học, Chủ nghĩa duy vật đã phát triển qua 3 hình thức cơ bản:",
+    "keyTakeaways": [
+      "1. CNDV chất phác thời Cổ đại: Đồng nhất vật chất với các dạng cụ thể (nước, lửa, không khí, nguyên tử...)",
+      "2. CNDV siêu hình thế kỷ XVII - XVIII: Coi thế giới như cỗ máy cơ học khổng lồ, tĩnh tại, phi biện chứng.",
+      "3. CNDV biện chứng (do C.Mác & Ph.Ăngghen sáng lập, V.I.Lênin phát triển): Đỉnh cao của CNDV."
+    ],
+    "mnemonicTip": "Chất phác (Cổ đại) ➔ Siêu hình (Thế kỷ 17-18) ➔ Biện chứng (Mác - Ăngghen - Lênin)."
+  },
+  {
+    "id": "fc-103",
+    "chapterId": "chap-01",
+    "category": "Triết học Mác - Lênin",
+    "term": "Ba tiền đề lý luận trực tiếp của Chủ nghĩa Mác",
+    "definition": "C.Mác và Ph.Ăngghen đã kế thừa có phê phán 3 đỉnh cao tư tưởng nhân loại thế kỷ XIX:",
+    "keyTakeaways": [
+      "1. Triết học cổ điển Đức: Kế thừa 'hạt nhân hợp lý' (phép biện chứng của Hegel) và 'chất duy vật' (Feuerbach).",
+      "2. Kinh tế chính trị học cổ điển Anh: Kế thừa học thuyết giá trị của Adam Smith & David Ricardo.",
+      "3. Chủ nghĩa xã hội không tưởng Pháp: Kế thừa tư tưởng nhân đạo của Saint-Simon & Charles Fourier."
+    ],
+    "mnemonicTip": "Đức (Triết học) + Anh (Kinh tế) + Pháp (Chủ nghĩa xã hội)."
+  },
+  {
+    "id": "fc-104",
+    "chapterId": "chap-01",
+    "category": "Triết học Mác - Lênin",
+    "term": "Ba phát minh khoa học tự nhiên làm tiền đề cho CN Mác",
+    "definition": "Các thành tựu khoa học thế kỷ XIX chứng minh tính biện chứng thống nhất của thế giới:",
+    "keyTakeaways": [
+      "1. Định luật bảo toàn và chuyển hóa năng lượng (Lomonosov, Mayer, Joule)",
+      "2. Thuyết tế bào (Schleiden, Schwann)",
+      "3. Thuyết tiến hóa của Charles Darwin"
+    ],
+    "mnemonicTip": "Năng lượng (Vật lý) - Tế bào (Sinh học cấu trúc) - Tiến hóa (Sinh học lịch sử)."
+  },
+  {
+    "id": "fc-201",
+    "chapterId": "chap-02",
+    "category": "Vật chất & Ý thức",
+    "term": "Định nghĩa Vật chất của V.I.Lênin",
+    "definition": "'Vật chất là một phạm trù triết học dùng để chỉ thực tại khách quan được đem lại cho con người trong cảm giác, được cảm giác của chúng ta chép lại, chụp lại, phản ánh, và tồn tại không lệ thuộc vào cảm giác.'",
+    "keyTakeaways": [
+      "Vật chất tồn tại khách quan bên ngoài và độc lập với ý thức con người.",
+      "Vật chất là cái gây nên cảm giác ở con người khi trực tiếp hoặc gián tiếp tác động lên giác quan.",
+      "Cảm giác, ý thức chỉ là sự phản ánh lại thực tại khách quan đó."
+    ],
+    "mnemonicTip": "Từ khóa cốt lõi: 'Thực tại khách quan' + 'Gây ra cảm giác' + 'Không lệ thuộc ý thức'."
+  },
+  {
+    "id": "fc-202",
+    "chapterId": "chap-02",
+    "category": "Vật chất & Ý thức",
+    "term": "Vận động là phương thức tồn tại của vật chất",
+    "definition": "Vận động theo nghĩa chung nhất là mọi sự biến đổi và mọi quá trình diễn ra trong vũ trụ, kể từ sự thay đổi vị trí đơn giản cho đến tư duy.",
+    "keyTakeaways": [
+      "Vận động là thuộc tính cố hữu, là phương thức tồn tại của vật chất.",
+      "Vận động là tuyệt đối, vĩnh viễn; đứng im là tương đối, tạm thời.",
+      "5 hình thức vận động cơ bản (từ thấp đến cao): Cơ học ➔ Vật lý ➔ Hóa học ➔ Sinh học ➔ Xã hội."
+    ],
+    "mnemonicTip": "5 Cấp độ: Cơ - Lý - Hóa - Sinh - Xã hội (Cao bao hàm thấp, không quy về thấp)."
+  },
+  {
+    "id": "fc-203",
+    "chapterId": "chap-02",
+    "category": "Vật chất & Ý thức",
+    "term": "Nguồn gốc của Ý thức",
+    "definition": "Ý thức xuất hiện từ sự kết hợp biện chứng giữa nguồn gốc tự nhiên và nguồn gốc xã hội.",
+    "keyTakeaways": [
+      "Nguồn gốc tự nhiên: Bộ óc người có cấu trúc tinh vi + Thế giới khách quan tác động lên bộ óc.",
+      "Nguồn gốc xã hội: Lao động + Ngôn ngữ (Đây là nguồn gốc trực tiếp và quyết định nhất)."
+    ],
+    "mnemonicTip": "Tự nhiên là 'cơ sở vật chất', Xã hội (Lao động + Ngôn ngữ) là 'động lực quyết định'."
+  },
+  {
+    "id": "fc-204",
+    "chapterId": "chap-02",
+    "category": "Phép biện chứng duy vật",
+    "term": "Hai Nguyên lý của Phép biện chứng",
+    "definition": "Cơ sở lý luận nền tảng để xem xét mọi sự vật, hiện tượng trong vũ trụ:",
+    "keyTakeaways": [
+      "1. Nguyên lý về Mối liên hệ phổ biến: Các sự vật không cô lập mà luôn ràng buộc, tác động, chuyển hóa lẫn nhau ➔ Rút ra Quan điểm toàn diện & Quan điểm lịch sử - cụ thể.",
+      "2. Nguyên lý về Sự phát triển: Quá trình vận động tiến lên từ thấp đến cao, từ đơn giản đến phức tạp, từ kém hoàn thiện đến hoàn thiện hơn ➔ Rút ra Quan điểm phát triển."
+    ],
+    "mnemonicTip": "Nhớ 2 chữ: 'Liên hệ' (Không gian/mạng lưới) & 'Phát triển' (Thời gian/hướng đi lên)."
+  },
+  {
+    "id": "fc-205",
+    "chapterId": "chap-02",
+    "category": "Quy luật cơ bản",
+    "term": "Quy luật Lượng - Chất (Chuyển hóa từ sự thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại)",
+    "definition": "Chỉ ra CÁCH THỨC của sự vận động và phát triển.",
+    "keyTakeaways": [
+      "Độ: Giới hạn mà trong đó sự thay đổi về lượng chưa làm thay đổi căn bản về chất.",
+      "Điểm nút: Thời điểm mà sự tích lũy về lượng đạt tới giới hạn làm thay đổi chất.",
+      "Bước nhảy: Quá trình chuyển hóa về chất của sự vật do tích lũy về lượng tại điểm nút gây ra."
+    ],
+    "mnemonicTip": "Lượng đổi ➔ Điểm nút ➔ Bước nhảy ➔ Chất mới ra đời (Cách thức phát triển)."
+  },
+  {
+    "id": "fc-206",
+    "chapterId": "chap-02",
+    "category": "Quy luật cơ bản",
+    "term": "Quy luật Thống nhất & Đấu tranh của các mặt đối lập (Quy luật Mâu thuẫn)",
+    "definition": "Hạt nhân của phép biện chứng - chỉ ra NGUỒN GỐC, ĐỘNG LỰC bên trong của sự vận động và phát triển.",
+    "keyTakeaways": [
+      "Thống nhất của các mặt đối lập: Nương tựa nhau, làm tiền đề tồn tại cho nhau (tương đối, tạm thời).",
+      "Đấu tranh của các mặt đối lập: Bài trừ, gạt bỏ, phủ định lẫn nhau (tuyệt đối, vĩnh viễn).",
+      "Sự đấu tranh giữa các mặt đối lập dẫn đến mâu thuẫn được giải quyết ➔ sự vật cũ mất đi, sự vật mới ra đời."
+    ],
+    "mnemonicTip": "Mâu thuẫn = Động lực phát triển (Thống nhất là tương đối, Đấu tranh là tuyệt đối)."
+  },
+  {
+    "id": "fc-207",
+    "chapterId": "chap-02",
+    "category": "Quy luật cơ bản",
+    "term": "Quy luật Phủ định của phủ định",
+    "definition": "Chỉ ra KHUYNH HƯỚNG của sự phát triển (phát triển theo đường xoáy ốc đi lên).",
+    "keyTakeaways": [
+      "Phủ định biện chứng có 2 tính chất cơ bản: Tính khách quan & Tính kế thừa.",
+      "Qua ít nhất 2 lần phủ định biện chứng (Phủ định của phủ định), sự vật dường như quay trở lại điểm xuất phát ban đầu nhưng trên cơ sở trình độ cao hơn."
+    ],
+    "mnemonicTip": "Khuynh hướng phát triển = Đường xoáy trôn ốc (kế thừa cái cũ, nâng lên tầm cao mới)."
+  },
+  {
+    "id": "fc-301",
+    "chapterId": "chap-03",
+    "category": "CNDV Lịch sử",
+    "term": "Biện chứng giữa Lực lượng sản xuất (LLSX) và Quan hệ sản xuất (QHSX)",
+    "definition": "Quy luật kinh tế - xã hội cơ bản nhất chi phối sự vận động của lịch sử nhân loại:",
+    "keyTakeaways": [
+      "LLSX: Biểu hiện mối quan hệ giữa con người với giới tự nhiên (gồm Tư liệu sản xuất & Người lao động - trong đó Người lao động là yếu tố quyết định nhất).",
+      "QHSX: Biểu hiện quan hệ giữa người với người trong quá trình sản xuất (gồm Sở hữu, Tổ chức quản lý, Phân phối).",
+      "LLSX quyết định QHSX; QHSX tác động trở lại (thúc đẩy nếu phù hợp, kìm hãm nếu không phù hợp)."
+    ],
+    "mnemonicTip": "LLSX (Động lực nội dung biến đổi trước) ➔ QHSX (Hình thức xã hội phải điều chỉnh theo)."
+  },
+  {
+    "id": "fc-302",
+    "chapterId": "chap-03",
+    "category": "CNDV Lịch sử",
+    "term": "Cơ sở hạ tầng (CSHT) và Kiến trúc thượng tầng (KTTT)",
+    "definition": "Mối quan hệ biện chứng nền tảng cấu thành nên một hình thái kinh tế - xã hội:",
+    "keyTakeaways": [
+      "CSHT: Toàn bộ những quan hệ sản xuất hợp thành cơ cấu kinh tế của một xã hội nhất định.",
+      "KTTT: Toàn bộ những quan điểm chính trị, pháp quyền, triết học, đạo đức... và các thiết chế tương ứng (Nhà nước, đảng phái, giáo hội...). Trong đó Nhà nước là yếu tố quyền lực mạnh nhất.",
+      "CSHT quyết định KTTT; KTTT có tính độc lập tương đối và tác động mạnh mẽ trở lại CSHT."
+    ],
+    "mnemonicTip": "CSHT = Cơ cấu kinh tế. KTTT = Chính trị, tư tưởng, pháp luật, Nhà nước."
+  },
+  {
+    "id": "fc-303",
+    "chapterId": "chap-03",
+    "category": "CNDV Lịch sử",
+    "term": "Học thuyết Hình thái Kinh tế - Xã hội",
+    "definition": "'Sự phát triển của các hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên' (C.Mác).",
+    "keyTakeaways": [
+      "Cấu trúc gồm 3 yếu tố cơ bản: Lực lượng sản xuất + Quan hệ sản xuất (CSHT) + Kiến trúc thượng tầng.",
+      "5 hình thái KT-XH tuần tự trong lịch sử: Công xã nguyên thủy ➔ Chiếm hữu nô lệ ➔ Phong kiến ➔ Tư bản chủ nghĩa ➔ Cộng sản chủ nghĩa."
+    ],
+    "mnemonicTip": "5 Nấc thang: Nguyên thủy ➔ Nô lệ ➔ Phong kiến ➔ TBCN ➔ CSCN."
+  },
+  {
+    "id": "fc-304",
+    "chapterId": "chap-03",
+    "category": "CNDV Lịch sử",
+    "term": "Tồn tại xã hội và Ý thức xã hội",
+    "definition": "Mối quan hệ giữa đời sống vật chất và đời sống tinh thần của xã hội:",
+    "keyTakeaways": [
+      "Tồn tại xã hội (Hoàn cảnh địa lý, Dân số, Phương thức sản xuất - quyết định nhất).",
+      "Tồn tại xã hội quyết định Ý thức xã hội.",
+      "Tính độc lập tương đối của Ý thức xã hội: Lạc hậu hơn, vượt trước, có tính kế thừa, tác động qua lại giữa các hình thái và tác động trở lại tồn tại xã hội."
+    ],
+    "mnemonicTip": "Vật chất xã hội (Tồn tại XH) sinh ra & quyết định Tư tưởng xã hội (Ý thức XH)."
+  }
+]
