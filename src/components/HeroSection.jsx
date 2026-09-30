@@ -6,7 +6,7 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
   return (
     <>
       {/* Full Screen Hero Container */}
-      <section className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-20">
+      <section className="relative z-0 min-h-screen flex flex-col justify-center overflow-hidden pt-20">
         {/* Background Image */}
         <div 
           className="absolute inset-0 z-[-2] bg-cover bg-center bg-no-repeat"
@@ -14,6 +14,7 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
         />
         {/* Subtle Dark Overlay to ensure text readability on the generated dark image */}
         <div className="absolute inset-0 z-[-1] bg-black/40 bg-gradient-to-b from-transparent via-black/20 to-[#090b0e]" />
+
 
         <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col items-center flex-1 justify-center pb-24">
           
