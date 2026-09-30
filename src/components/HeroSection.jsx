@@ -36,10 +36,7 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
           </div>
 
           {/* Bottom row (Left: text, Right: button) - Like Figma */}
-          <div className="w-full flex flex-col md:flex-row items-end justify-between gap-8 mt-12 md:mt-24">
-            <p className="text-sm md:text-base text-slate-900 font-medium max-w-xl leading-relaxed drop-shadow-md">
-              Hệ thống hóa toàn bộ tri thức qua phương pháp <strong className="text-black font-bold">Flashcard 3D Spaced Repetition</strong> và <strong className="text-black font-bold">Phòng thi trắc nghiệm bấm giờ</strong> bám sát đề thi đại học.
-            </p>
+          <div className="w-full flex flex-col md:flex-row items-end justify-end gap-8 mt-12 md:mt-24">
 
             <button 
               onClick={onStartFlashcards}
