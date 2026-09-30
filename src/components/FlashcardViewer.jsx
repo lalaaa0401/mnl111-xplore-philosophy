@@ -128,13 +128,13 @@ export default function FlashcardViewer({
     <div className="py-8 max-w-5xl mx-auto px-4 sm:px-6">
       {/* Chapter Selection Tabs */}
       <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
-        <div className="flex flex-wrap items-center gap-2 bg-slate-900/80 p-1.5 rounded-2xl border border-slate-900/10">
+        <div className="flex flex-wrap items-center gap-2 bg-slate-900/5 p-1.5 rounded-2xl border border-slate-900/10">
           <button
             onClick={() => onChapterChange('all')}
-            className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+            className={`px-3.5 py-1.5 rounded-xl text-xs transition-all ${
               selectedChapterId === 'all'
-                ? 'bg-amber-500 text-black shadow-md'
-                : 'text-slate-600 hover:text-slate-900'
+                ? 'bg-amber-500 text-black font-bold shadow-md'
+                : 'text-slate-700 font-semibold hover:text-black hover:bg-white/50'
             }`}
           >
             Tất Cả ({flashcards.length})
@@ -145,10 +145,10 @@ export default function FlashcardViewer({
               <button
                 key={chap.id}
                 onClick={() => onChapterChange(chap.id)}
-                className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                className={`px-3.5 py-1.5 rounded-xl text-xs transition-all ${
                   selectedChapterId === chap.id
-                    ? 'bg-amber-500 text-black shadow-md'
-                    : 'text-slate-600 hover:text-slate-900'
+                    ? 'bg-amber-500 text-black font-bold shadow-md'
+                    : 'text-slate-700 font-semibold hover:text-black hover:bg-white/50'
                 }`}
               >
                 {chap.number} ({count})
@@ -158,11 +158,11 @@ export default function FlashcardViewer({
         </div>
 
         {/* View Mode Toggle */}
-        <div className="flex items-center gap-2 bg-slate-900/80 p-1.5 rounded-xl border border-slate-900/10">
+        <div className="flex items-center gap-2 bg-slate-900/5 p-1.5 rounded-xl border border-slate-900/10">
           <button
             onClick={() => setViewMode('card')}
-            className={`p-1.5 rounded-lg text-xs flex items-center gap-1.5 transition-all ${
-              viewMode === 'card' ? 'bg-white/20 text-slate-900' : 'text-slate-600 hover:text-slate-900'
+            className={`p-1.5 rounded-lg text-xs flex items-center gap-1.5 transition-all font-semibold ${
+              viewMode === 'card' ? 'bg-white shadow-sm text-slate-900' : 'text-slate-700 hover:text-black hover:bg-white/50'
             }`}
           >
             <Layers className="w-4 h-4" />
@@ -170,8 +170,8 @@ export default function FlashcardViewer({
           </button>
           <button
             onClick={() => setViewMode('list')}
-            className={`p-1.5 rounded-lg text-xs flex items-center gap-1.5 transition-all ${
-              viewMode === 'list' ? 'bg-white/20 text-slate-900' : 'text-slate-600 hover:text-slate-900'
+            className={`p-1.5 rounded-lg text-xs flex items-center gap-1.5 transition-all font-semibold ${
+              viewMode === 'list' ? 'bg-white shadow-sm text-slate-900' : 'text-slate-700 hover:text-black hover:bg-white/50'
             }`}
           >
             <List className="w-4 h-4" />
