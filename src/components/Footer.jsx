@@ -13,7 +13,7 @@ export default function Footer({ onOpenGlossary, onNavigate }) {
                 <Compass className="w-4 h-4 text-slate-950" />
               </div>
               <span className="font-platypi text-xl font-bold text-slate-900 tracking-tight">
-                Dialectica<span className="text-amber-600">.</span> philosophy
+                Dialectica<span className="text-amber-600">.</span> Triết Học
               </span>
             </div>
             <p className="text-slate-600 text-xs sm:text-sm max-w-md leading-relaxed font-light">
