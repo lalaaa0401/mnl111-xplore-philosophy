@@ -20,7 +20,7 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
           
           {/* Top Tagline Pill - Centered */}
           <div className="flex justify-center mb-10">
-            <div className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-slate-900/10 backdrop-blur-md text-slate-900/90 text-sm font-medium tracking-wide border border-slate-900/20 shadow-sm">
+            <div className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-slate-900/15 backdrop-blur-md text-slate-900 font-semibold tracking-wide border border-slate-900/30 shadow-sm">
               <Sparkles className="w-4 h-4 text-amber-600" />
               <span>Khám Phá Triết Học Mác - Lênin (MNL111)</span>
             </div>
@@ -37,13 +37,13 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
 
           {/* Bottom row (Left: text, Right: button) - Like Figma */}
           <div className="w-full flex flex-col md:flex-row items-end justify-between gap-8 mt-12 md:mt-24">
-            <p className="text-sm md:text-base text-slate-800/90 font-light max-w-xl leading-relaxed drop-shadow-md">
-              Hệ thống hóa toàn bộ tri thức qua phương pháp <strong className="text-slate-900 font-medium">Flashcard 3D Spaced Repetition</strong> và <strong className="text-slate-900 font-medium">Phòng thi trắc nghiệm bấm giờ</strong> bám sát đề thi đại học.
+            <p className="text-sm md:text-base text-slate-900 font-medium max-w-xl leading-relaxed drop-shadow-md">
+              Hệ thống hóa toàn bộ tri thức qua phương pháp <strong className="text-black font-bold">Flashcard 3D Spaced Repetition</strong> và <strong className="text-black font-bold">Phòng thi trắc nghiệm bấm giờ</strong> bám sát đề thi đại học.
             </p>
 
             <button 
               onClick={onStartFlashcards}
-              className="group flex items-center gap-3 px-8 py-3.5 rounded-full border border-slate-900/30 bg-transparent hover:bg-slate-900/10 backdrop-blur-sm text-slate-900 font-medium text-lg transition-all"
+              className="group flex items-center gap-3 px-8 py-3.5 rounded-full border border-slate-900/40 bg-slate-900/5 hover:bg-slate-900/15 backdrop-blur-sm text-slate-900 font-bold text-lg transition-all shadow-sm"
             >
               <span>Bắt đầu Khám phá</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

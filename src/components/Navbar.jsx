@@ -53,8 +53,8 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
                 onClick={() => handleNavClick(item)}
                 className={`flex items-center gap-2 px-4 py-2 rounded-full text-xs lg:text-sm font-medium transition-all ${
                   isActive
-                    ? 'bg-amber-500 text-slate-950 font-semibold shadow-md shadow-amber-500/20'
-                    : 'text-slate-700 hover:text-slate-900 hover:bg-slate-900/10'
+                    ? 'bg-amber-500 text-slate-950 font-bold shadow-md shadow-amber-500/20'
+                    : 'text-slate-800 font-semibold hover:text-black hover:bg-slate-900/10'
                 }`}
               >
                 <Icon className="w-4 h-4" />
@@ -69,7 +69,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
           {/* Quick Search */}
           <button
             onClick={onOpenGlossary}
-            className="hidden sm:flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-slate-900/5 border border-slate-900/10 text-xs text-slate-700 hover:border-amber-500/40 hover:text-amber-600 transition-all cursor-pointer"
+            className="hidden sm:flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-slate-900/5 border border-slate-900/10 text-xs text-slate-800 font-semibold hover:border-amber-600/40 hover:text-amber-700 transition-all cursor-pointer"
             title="Bấm Ctrl + K để tra cứu nhanh"
           >
             <Search className="w-3.5 h-3.5 text-amber-600" />
