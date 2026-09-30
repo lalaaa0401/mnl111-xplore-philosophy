@@ -27,19 +27,14 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
         {/* Brand Logo - Figma Style */}
         <div 
           onClick={() => setActiveTab('overview')}
-          className="flex items-center gap-3 cursor-pointer select-none group"
+          className="flex items-baseline gap-2 cursor-pointer select-none group"
         >
-          <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-500 to-amber-300 flex items-center justify-center text-black font-bold shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
-            <Compass className="w-5 h-5 text-slate-950" />
-          </div>
-          <div className="flex items-baseline gap-1.5">
-            <span className="font-platypi text-2xl font-bold tracking-tight text-slate-900 group-hover:text-amber-600 transition-colors">
-              xplore<span className="text-amber-600">.</span>
-            </span>
-            <span className="text-[10px] tracking-widest px-2 py-0.5 rounded-full bg-slate-900/10 text-amber-600 font-semibold uppercase border border-slate-900/10">
-              MNL111
-            </span>
-          </div>
+          <span className="font-platypi italic font-light text-3xl tracking-tight text-slate-900 group-hover:opacity-70 transition-opacity">
+            xplore.
+          </span>
+          <span className="text-[10px] tracking-widest text-slate-500 font-medium uppercase mt-1">
+            MNL111
+          </span>
         </div>
 
         {/* Desktop Navigation */}
