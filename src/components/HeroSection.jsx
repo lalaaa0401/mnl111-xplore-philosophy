@@ -1,11 +1,20 @@
 import React from 'react';
 import { ArrowRight, BookOpen, CheckCircle, Flame, Layers, Award, Compass, Sparkles } from 'lucide-react';
+import heroBg from '../assets/hero-bg.jpg';
 
 export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlashcards, totalQuestions }) {
   return (
     <section className="relative pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden">
+      {/* Background Image with Dark Overlay */}
+      <div 
+        className="absolute inset-0 z-[-2] bg-cover bg-center bg-no-repeat opacity-30"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      />
+      <div className="absolute inset-0 z-[-1] bg-gradient-to-b from-[#090b0e]/80 via-[#090b0e]/95 to-[#090b0e]" />
+
       {/* Background Decorative Gradient Orbs */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-gradient-to-b from-amber-500/10 via-amber-500/5 to-transparent blur-3xl pointer-events-none -z-10" />
+
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Tagline Pill - Exactly like Figma */}
