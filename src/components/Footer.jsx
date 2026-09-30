@@ -13,7 +13,7 @@ export default function Footer({ onOpenGlossary, onNavigate }) {
                 <Compass className="w-4 h-4 text-slate-950" />
               </div>
               <span className="font-platypi text-xl font-bold text-slate-900 tracking-tight">
-                xplore<span className="text-amber-600">.</span> philosophy
+                Dialectica<span className="text-amber-600">.</span> philosophy
               </span>
             </div>
             <p className="text-slate-600 text-xs sm:text-sm max-w-md leading-relaxed font-light">
@@ -62,7 +62,7 @@ export default function Footer({ onOpenGlossary, onNavigate }) {
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-900/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-[11px]">
-          <p>© 2026 Xplore Philosophy (MNL111). Khơi nguồn cảm hứng từ triết học biện chứng.</p>
+          <p>© 2026 Dialectica Philosophy (MNL111). Khơi nguồn cảm hứng từ triết học biện chứng.</p>
           <div className="flex items-center gap-1.5 text-slate-600">
             <span>Học sâu sắc • Tư duy đa chiều • Đạt điểm cao</span>
             <Sparkles className="w-3 h-3 text-amber-600" />

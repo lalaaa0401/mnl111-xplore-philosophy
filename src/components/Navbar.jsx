@@ -30,7 +30,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
           className="flex items-baseline gap-2 cursor-pointer select-none group"
         >
           <span className="font-platypi italic font-light text-3xl tracking-tight text-slate-900 group-hover:opacity-70 transition-opacity">
-            xplore.
+            Dialectica.
           </span>
           <span className="text-[10px] tracking-widest text-slate-500 font-medium uppercase mt-1">
             MNL111
