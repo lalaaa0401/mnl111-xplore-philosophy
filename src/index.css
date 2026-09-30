@@ -1,74 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@300;400;500;600;700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
 
-
-
 :root {
   --bg-main: #0a0c10;
-  --bg-card: rgba(22, 27, 34, 0.75);
-  --bg-card-hover: rgba(30, 38, 48, 0.9);
-  --bg-elevated: #161b22;
+  --bg-card: rgba(18, 22, 29, 0.75);
+  --bg-card-hover: rgba(28, 35, 46, 0.9);
   --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-hover: rgba(230, 162, 60, 0.4);
+  --border-glow: rgba(245, 180, 60, 0.35);
   
-  --accent-gold: #e5a93c;
-  --accent-gold-light: #f6c065;
-  --accent-gold-glow: rgba(229, 169, 60, 0.25);
-  --accent-emerald: #10b981;
-  --accent-rose: #f43f5e;
-  --accent-cyan: #06b6d4;
-
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --accent-gold: #f5b73d;
+  --accent-gold-light: #fcd34d;
   
-  --font-editorial: 'Platypi', Georgia, serif;
-  --font-ui: 'DM Sans', 'Inter', -apple-system, sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --font-platypi: 'Platypi', Georgia, serif;
+  --font-dm: 'DM Sans', sans-serif;
 }
 
 body {
-  background-color: var(--bg-main);
-  color: var(--text-primary);
-  font-family: var(--font-ui);
+  background-color: #090b0e;
+  color: #f8fafc;
+  font-family: var(--font-dm), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
   background-image: 
-    radial-gradient(circle at 15% 15%, rgba(229, 169, 60, 0.04) 0%, transparent 40%),
-    radial-gradient(circle at 85% 85%, rgba(6, 182, 212, 0.03) 0%, transparent 40%);
+    radial-gradient(circle at 10% 10%, rgba(245, 183, 61, 0.05) 0%, transparent 45%),
+    radial-gradient(circle at 90% 80%, rgba(6, 182, 212, 0.04) 0%, transparent 45%);
 }
 
 .font-platypi {
-  font-family: var(--font-editorial);
+  font-family: var(--font-platypi);
 }
 
-.font-ui {
-  font-family: var(--font-ui);
+.font-dm {
+  font-family: var(--font-dm);
 }
 
 /* Glassmorphism Classes */
 .glass-panel {
-  background: var(--bg-card);
+  background: rgba(18, 22, 29, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--border-subtle);
-  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
 }
 
 .glass-nav {
-  background: rgba(10, 12, 16, 0.85);
+  background: rgba(9, 11, 14, 0.88);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* 3D Flip Card Magic */
+/* 3D Flip Card */
 .perspective-1000 {
   perspective: 1200px;
 }
@@ -88,14 +71,55 @@ body {
 
 /* Glow & Accents */
 .gold-gradient-text {
-  background: linear-gradient(135deg, #ffffff 0%, #f6c065 50%, #e5a93c 100%);
+  background: linear-gradient(135deg, #ffffff 10%, #fcd34d 60%, #f59e0b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gold-border-glow:hover {
-  border-color: var(--border-hover);
-  box-shadow: 0 0 25px var(--accent-gold-glow);
+  border-color: rgba(245, 183, 61, 0.4);
+  box-shadow: 0 10px 30px -10px rgba(245, 183, 61, 0.2);
+}
+
+/* Custom Buttons */
+.btn-gold {
+  background: linear-gradient(135deg, #f5b73d 0%, #d97706 100%);
+  color: #05070a;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(245, 183, 61, 0.35);
+  filter: brightness(1.06);
+}
+
+.btn-ghost {
+  background: rgba(255, 255, 255, 0.06);
+  color: #f1f5f9;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 12px 26px;
+  border-radius: 9999px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
 }
 
 /* Custom Scrollbar */
@@ -104,68 +128,21 @@ body {
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a0c10;
+  background: #090b0e;
 }
 ::-webkit-scrollbar-thumb {
-  background: #272f3d;
+  background: #1e2633;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-gold);
+  background: #f5b73d;
 }
 
-/* Button & interactive effects */
-.btn-gold {
-  background: linear-gradient(135deg, #e5a93c 0%, #c88923 100%);
-  color: #000000;
-  font-weight: 600;
-  padding: 10px 22px;
-  border-radius: 9999px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.25s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-.btn-gold:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(229, 169, 60, 0.35);
-  filter: brightness(1.08);
-}
-
-.btn-ghost {
-  background: rgba(255, 255, 255, 0.05);
-  color: #e2e8f0;
-  border: 1px solid var(--border-subtle);
-  padding: 10px 20px;
-  border-radius: 9999px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-.btn-ghost:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.2);
-  color: #ffffff;
-}
-
-/* Animation Utilities */
-@keyframes floatAnim {
+/* Animations */
+@keyframes floatSlow {
   0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-6px); }
+  50% { transform: translateY(-5px); }
 }
 .animate-float {
-  animation: floatAnim 4s ease-in-out infinite;
-}
-
-@keyframes pulseGlow {
-  0%, 100% { opacity: 0.4; }
-  50% { opacity: 0.8; }
-}
-.animate-glow {
-  animation: pulseGlow 3s ease-in-out infinite;
+  animation: floatSlow 3.5s ease-in-out infinite;
 }
