@@ -122,8 +122,8 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
     return (
       <div className="py-10 max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-semibold mb-4">
-            <Award className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-600/10 border border-cyan-600/30 text-cyan-700 text-xs font-bold mb-4 shadow-sm">
+            <Award className="w-3.5 h-3.5 text-cyan-700" />
             <span>Phòng Thi Trắc Nghiệm Chuẩn Hóa</span>
           </div>
           <h2 className="font-platypi text-3xl sm:text-4xl font-bold text-slate-900 mb-3">
