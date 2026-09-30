@@ -362,7 +362,7 @@ export default function FlashcardViewer({
                   if (isCurrentMastered) onToggleMastered(currentCard.id);
                   handleNext();
                 }}
-                className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 border border-rose-500/30 text-rose-300 text-xs font-semibold transition-colors"
+                className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-rose-50 hover:bg-rose-100 border border-rose-200 text-rose-700 text-xs font-bold transition-colors"
                 title="Phím tắt: 1"
               >
                 <XCircle className="w-4 h-4 text-rose-400" />
@@ -374,10 +374,10 @@ export default function FlashcardViewer({
                   if (!isCurrentMastered) onToggleMastered(currentCard.id);
                   handleNext();
                 }}
-                className={`flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl border text-xs font-semibold transition-colors ${
+                className={`flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl border text-xs font-bold transition-colors ${
                   isCurrentMastered
-                    ? 'bg-emerald-500 text-black border-emerald-400'
-                    : 'bg-emerald-500/10 hover:bg-emerald-500/20 border-emerald-500/30 text-emerald-600'
+                    ? 'bg-emerald-500 text-black border-emerald-400 shadow-md shadow-emerald-500/20'
+                    : 'bg-emerald-50 hover:bg-emerald-100 border-emerald-200 text-emerald-700'
                 }`}
                 title="Phím tắt: 2"
               >
