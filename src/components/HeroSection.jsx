@@ -4,54 +4,41 @@ import { ArrowRight, BookOpen, CheckCircle, Flame, Layers, Award, Compass, Spark
 export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlashcards, totalQuestions }) {
   return (
     <>
-      {/* Full Screen Hero Container */}
-      <section className="relative z-0 min-h-screen flex flex-col justify-center overflow-hidden pt-20">
-        {/* Masked Background Container for seamless transition */}
-        <div 
-          className="absolute inset-0 z-[-2]"
-          style={{ 
-            WebkitMaskImage: 'linear-gradient(to top, transparent 0%, black 20%, black 100%)',
-            maskImage: 'linear-gradient(to top, transparent 0%, black 20%, black 100%)'
-          }}
-        >
-          <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url('/bg-marx.jpg')` }}
-          />
-          <div className="absolute inset-0 bg-black/30 bg-gradient-to-b from-[#271010]/95 via-transparent to-transparent" />
+      {/* Hero Text Section (Unobstructed) */}
+      <section className="relative z-10 flex flex-col items-center justify-center pt-32 pb-16 px-4 text-center">
+        {/* Top Tagline Pill */}
+        <div className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-white/5 backdrop-blur-md text-white font-semibold tracking-wide border border-white/10 shadow-sm mb-8">
+          <Sparkles className="w-4 h-4 text-amber-400" />
+          <span>Khám Phá Triết Học Mác - Lênin (MNL111)</span>
         </div>
 
+        {/* Huge Hero Title */}
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] font-light tracking-tight text-white leading-[1.1] drop-shadow-2xl max-w-5xl mb-12">
+          Khai mở <span className="font-platypi italic font-bold text-amber-400 drop-shadow-md">Tư Duy Biện Chứng</span>
+          <br />
+          Làm chủ <span className="font-platypi italic font-bold text-amber-400 drop-shadow-md">Tri Thức & Kỳ Thi</span>.
+        </h1>
 
-        <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col items-center flex-1 justify-center pb-24">
-          
-          {/* Top Tagline Pill - Centered */}
-          <div className="flex justify-center mb-10">
-            <div className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-white/10 backdrop-blur-md text-white font-semibold tracking-wide border border-white/20 shadow-sm">
-              <Sparkles className="w-4 h-4 text-amber-400" />
-              <span>Khám Phá Triết Học Mác - Lênin (MNL111)</span>
-            </div>
-          </div>
+        {/* Action Button */}
+        <button 
+          onClick={onStartFlashcards}
+          className="group flex items-center gap-3 px-8 py-4 rounded-full border border-amber-500/50 bg-amber-500/10 hover:bg-amber-500/20 backdrop-blur-md text-amber-400 font-bold text-lg transition-all shadow-[0_0_20px_rgba(245,158,11,0.2)] hover:shadow-[0_0_30px_rgba(245,158,11,0.4)]"
+        >
+          <span>Bắt đầu Khám phá</span>
+          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        </button>
+      </section>
 
-          {/* Huge Hero Title - Centered */}
-          <div className="text-center w-full max-w-5xl mx-auto mb-auto">
-            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] font-light tracking-tight text-white leading-[1.1] drop-shadow-2xl">
-              Khai mở <span className="font-platypi italic font-bold text-amber-400 drop-shadow-md">Tư Duy Biện Chứng</span>
-              <br />
-              Làm chủ <span className="font-platypi italic font-bold text-amber-400 drop-shadow-md">Tri Thức & Kỳ Thi</span>.
-            </h1>
-          </div>
-
-          {/* Bottom row (Left: text, Right: button) - Like Figma */}
-          <div className="w-full flex flex-col md:flex-row items-end justify-end gap-8 mt-12 md:mt-24">
-
-            <button 
-              onClick={onStartFlashcards}
-              className="group flex items-center gap-3 px-8 py-3.5 rounded-full border border-white/30 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white font-bold text-lg transition-all shadow-lg hover:shadow-xl"
-            >
-              <span>Bắt đầu Khám phá</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-          </div>
+      {/* The Masterpiece Artwork (Unobstructed & Framed) */}
+      <section className="relative z-0 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+        <div className="relative w-full rounded-2xl md:rounded-[2rem] overflow-hidden border border-amber-500/20 shadow-[0_0_50px_rgba(0,0,0,0.6)] gold-border-glow">
+          <img 
+            src="/bg-marx.jpg" 
+            alt="Chân dung các vĩ nhân Mác - Lênin" 
+            className="w-full h-auto block"
+          />
+          {/* Subtle inner vignette for cinematic depth */}
+          <div className="absolute inset-0 shadow-[inset_0_0_80px_rgba(0,0,0,0.8)] pointer-events-none" />
         </div>
       </section>
 
