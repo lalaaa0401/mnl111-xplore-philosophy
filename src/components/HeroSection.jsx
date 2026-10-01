@@ -12,7 +12,7 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
           style={{ backgroundImage: `url('/bg-marx.jpg')` }}
         />
         {/* Subtle Dark Overlay to ensure text readability on the generated dark image */}
-        <div className="absolute inset-0 z-[-1] bg-black/40 bg-gradient-to-b from-black/20 via-black/50 to-slate-50" />
+        <div className="absolute inset-0 z-[-1] bg-black/40 bg-gradient-to-b from-black/20 via-black/50 to-[#1a0505]" />
 
 
         <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col items-center flex-1 justify-center pb-24">
