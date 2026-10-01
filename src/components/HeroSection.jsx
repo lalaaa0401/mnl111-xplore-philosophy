@@ -12,25 +12,25 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
           style={{ backgroundImage: `url('/bg-marx.jpg')` }}
         />
         {/* Subtle Dark Overlay to ensure text readability on the generated dark image */}
-        <div className="absolute inset-0 z-[-1] bg-white/40 bg-gradient-to-b from-transparent via-black/20 to-slate-50" />
+        <div className="absolute inset-0 z-[-1] bg-black/40 bg-gradient-to-b from-black/20 via-black/50 to-slate-50" />
 
 
         <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col items-center flex-1 justify-center pb-24">
           
           {/* Top Tagline Pill - Centered */}
           <div className="flex justify-center mb-10">
-            <div className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-slate-900/15 backdrop-blur-md text-slate-900 font-semibold tracking-wide border border-slate-900/30 shadow-sm">
-              <Sparkles className="w-4 h-4 text-amber-600" />
+            <div className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-white/10 backdrop-blur-md text-white font-semibold tracking-wide border border-white/20 shadow-sm">
+              <Sparkles className="w-4 h-4 text-amber-400" />
               <span>Khám Phá Triết Học Mác - Lênin (MNL111)</span>
             </div>
           </div>
 
           {/* Huge Hero Title - Centered */}
           <div className="text-center w-full max-w-5xl mx-auto mb-auto">
-            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] font-light tracking-tight text-slate-900 leading-[1.1] drop-shadow-lg">
-              Khai mở <span className="font-platypi italic font-normal text-amber-600">Tư Duy Biện Chứng</span>
+            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] font-light tracking-tight text-white leading-[1.1] drop-shadow-2xl">
+              Khai mở <span className="font-platypi italic font-bold text-amber-400 drop-shadow-md">Tư Duy Biện Chứng</span>
               <br />
-              Làm chủ <span className="font-platypi italic font-normal text-amber-600">Tri Thức & Kỳ Thi</span>.
+              Làm chủ <span className="font-platypi italic font-bold text-amber-400 drop-shadow-md">Tri Thức & Kỳ Thi</span>.
             </h1>
           </div>
 
@@ -39,7 +39,7 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
 
             <button 
               onClick={onStartFlashcards}
-              className="group flex items-center gap-3 px-8 py-3.5 rounded-full border border-slate-900/40 bg-slate-900/5 hover:bg-slate-900/15 backdrop-blur-sm text-slate-900 font-bold text-lg transition-all shadow-sm"
+              className="group flex items-center gap-3 px-8 py-3.5 rounded-full border border-white/30 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white font-bold text-lg transition-all shadow-lg hover:shadow-xl"
             >
               <span>Bắt đầu Khám phá</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
