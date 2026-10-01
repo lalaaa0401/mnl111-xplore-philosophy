@@ -44,7 +44,7 @@ export default function ChapterCards({ chapters, onSelectChapterForFlashcards, o
                 
                 {/* Top Badges */}
                 <div className="absolute top-4 left-4 flex items-center gap-2">
-                  <span className="px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-amber-500/30 text-amber-400 text-xs font-bold font-platypi">
+                  <span className="px-3 py-1 rounded-full bg-black/30 backdrop-blur-md border border-amber-500/30 text-amber-400 text-xs font-bold font-platypi">
                     {chap.number}
                   </span>
                   <span className="px-2.5 py-0.5 rounded-full bg-amber-500 text-slate-950 text-[11px] font-bold shadow-md shadow-amber-500/20">
@@ -53,7 +53,7 @@ export default function ChapterCards({ chapters, onSelectChapterForFlashcards, o
                 </div>
 
                 {/* Progress Badge */}
-                <div className="absolute bottom-3 right-4 flex items-center gap-1.5 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full border border-amber-500/30 text-xs text-amber-50 shadow-sm">
+                <div className="absolute bottom-3 right-4 flex items-center gap-1.5 bg-black/30 backdrop-blur-md px-3 py-1 rounded-full border border-amber-500/30 text-xs text-amber-50 shadow-sm">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
                   <span>{progressPercent}% thuộc ({masteredCount}/{chap.totalFlashcards})</span>
                 </div>
@@ -99,7 +99,7 @@ export default function ChapterCards({ chapters, onSelectChapterForFlashcards, o
 
                   <button
                     onClick={() => onSelectChapterForQuiz(chap.id)}
-                    className="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-black/40 hover:bg-black/60 text-amber-100 hover:text-amber-400 border border-amber-500/30 text-xs font-medium transition-all cursor-pointer"
+                    className="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-black/30 hover:bg-black/30 text-amber-100 hover:text-amber-400 border border-amber-500/30 text-xs font-medium transition-all cursor-pointer"
                   >
                     <Award className="w-3.5 h-3.5 text-cyan-400" />
                     <span>Thi Thử</span>

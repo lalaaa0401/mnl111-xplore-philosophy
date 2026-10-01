@@ -31,10 +31,10 @@ export default function GlossaryModal({ isOpen, onClose, glossary }) {
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
       <div 
         onClick={(e) => e.stopPropagation()}
-        className="glass-panel w-full max-w-3xl max-h-[85vh] flex flex-col border border-amber-500/20 bg-[#1a0505] shadow-2xl rounded-3xl overflow-hidden"
+        className="glass-panel w-full max-w-3xl max-h-[85vh] flex flex-col border border-amber-500/20 bg-[#380a0a] shadow-2xl rounded-3xl overflow-hidden"
       >
         {/* Modal Header */}
-        <div className="p-5 border-b border-amber-500/20 flex items-center justify-between bg-black/40">
+        <div className="p-5 border-b border-amber-500/20 flex items-center justify-between bg-black/30">
           <div className="flex items-center gap-2.5">
             <div className="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-500 flex items-center justify-center">
               <Compass className="w-5 h-5" />
@@ -47,14 +47,14 @@ export default function GlossaryModal({ isOpen, onClose, glossary }) {
 
           <button
             onClick={onClose}
-            className="p-2 rounded-xl bg-black/40 hover:bg-black/60 text-amber-100 hover:text-amber-400 transition-colors border border-amber-500/20"
+            className="p-2 rounded-xl bg-black/30 hover:bg-black/30 text-amber-100 hover:text-amber-400 transition-colors border border-amber-500/20"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
         {/* Search Input & Filter Bar */}
-        <div className="p-4 bg-black/40 border-b border-amber-500/20 space-y-3">
+        <div className="p-4 bg-black/30 border-b border-amber-500/20 space-y-3">
           <div className="relative">
             <Search className="w-4 h-4 text-amber-500/70 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
@@ -63,7 +63,7 @@ export default function GlossaryModal({ isOpen, onClose, glossary }) {
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Nhập thuật ngữ (VD: Vật chất, Ý thức, Độ, Lực lượng sản xuất, Tha hóa...)"
               autoFocus
-              className="w-full bg-black/60 border border-amber-500/30 rounded-2xl pl-10 pr-4 py-3 text-sm text-amber-50 placeholder-amber-100/50 shadow-sm focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500/20 transition-all"
+              className="w-full bg-black/30 border border-amber-500/30 rounded-2xl pl-10 pr-4 py-3 text-sm text-amber-50 placeholder-amber-100/50 shadow-sm focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500/20 transition-all"
             />
           </div>
 
@@ -76,7 +76,7 @@ export default function GlossaryModal({ isOpen, onClose, glossary }) {
                 className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all border ${
                   selectedFilter === filter
                     ? 'bg-amber-500 text-black border-amber-500 shadow-md'
-                    : 'bg-black/40 border-amber-500/20 text-amber-100 hover:bg-black/60'
+                    : 'bg-black/30 border-amber-500/20 text-amber-100 hover:bg-black/30'
                 }`}
               >
                 {filter === 'all' ? 'Tất Cả' : filter}
@@ -95,7 +95,7 @@ export default function GlossaryModal({ isOpen, onClose, glossary }) {
             filteredGlossary.map((item, idx) => (
               <div 
                 key={idx}
-                className="p-4 rounded-2xl bg-black/40 hover:bg-black/60 border border-amber-500/20 shadow-sm transition-all"
+                className="p-4 rounded-2xl bg-black/30 hover:bg-black/30 border border-amber-500/20 shadow-sm transition-all"
               >
                 <div className="flex items-start justify-between gap-3 mb-1.5">
                   <div className="flex items-center gap-2">
@@ -108,7 +108,7 @@ export default function GlossaryModal({ isOpen, onClose, glossary }) {
                       </span>
                     )}
                   </div>
-                  <span className="text-[10px] px-2 py-0.5 rounded-full bg-black/60 border border-amber-500/30 text-amber-300 font-medium shrink-0">
+                  <span className="text-[10px] px-2 py-0.5 rounded-full bg-black/30 border border-amber-500/30 text-amber-300 font-medium shrink-0">
                     {item.chapter}
                   </span>
                 </div>
@@ -128,7 +128,7 @@ export default function GlossaryModal({ isOpen, onClose, glossary }) {
         </div>
 
         {/* Footer Hint */}
-        <div className="p-3 bg-black/40 border-t border-amber-500/20 text-center text-[11px] text-amber-100/50 flex items-center justify-center gap-2">
+        <div className="p-3 bg-black/30 border-t border-amber-500/20 text-center text-[11px] text-amber-100/50 flex items-center justify-center gap-2">
           <span>Nhấn <strong>Esc</strong> hoặc click ra ngoài để đóng</span>
         </div>
       </div>

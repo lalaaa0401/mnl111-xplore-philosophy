@@ -128,13 +128,13 @@ export default function FlashcardViewer({
     <div className="py-8 max-w-5xl mx-auto px-4 sm:px-6">
       {/* Chapter Selection Tabs */}
       <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
-        <div className="flex flex-wrap items-center gap-2 bg-black/40 p-1.5 rounded-2xl border border-amber-500/20">
+        <div className="flex flex-wrap items-center gap-2 bg-black/30 p-1.5 rounded-2xl border border-amber-500/20">
           <button
             onClick={() => onChapterChange('all')}
             className={`px-3.5 py-1.5 rounded-xl text-xs transition-all ${
               selectedChapterId === 'all'
                 ? 'bg-amber-500 text-black font-bold shadow-md'
-                : 'text-amber-100/70 font-semibold hover:text-amber-400 hover:bg-black/60'
+                : 'text-amber-100/70 font-semibold hover:text-amber-400 hover:bg-black/30'
             }`}
           >
             Tất Cả ({flashcards.length})
@@ -148,7 +148,7 @@ export default function FlashcardViewer({
                 className={`px-3.5 py-1.5 rounded-xl text-xs transition-all ${
                   selectedChapterId === chap.id
                     ? 'bg-amber-500 text-black font-bold shadow-md'
-                    : 'text-amber-100/70 font-semibold hover:text-amber-400 hover:bg-black/60'
+                    : 'text-amber-100/70 font-semibold hover:text-amber-400 hover:bg-black/30'
                 }`}
               >
                 {chap.number} ({count})
@@ -158,11 +158,11 @@ export default function FlashcardViewer({
         </div>
 
         {/* View Mode Toggle */}
-        <div className="flex items-center gap-2 bg-black/40 p-1.5 rounded-xl border border-amber-500/20">
+        <div className="flex items-center gap-2 bg-black/30 p-1.5 rounded-xl border border-amber-500/20">
           <button
             onClick={() => setViewMode('card')}
             className={`p-1.5 rounded-lg text-xs flex items-center gap-1.5 transition-all font-semibold ${
-              viewMode === 'card' ? 'bg-amber-500 shadow-sm text-black' : 'text-amber-100/70 hover:text-amber-400 hover:bg-black/60'
+              viewMode === 'card' ? 'bg-amber-500 shadow-sm text-black' : 'text-amber-100/70 hover:text-amber-400 hover:bg-black/30'
             }`}
           >
             <Layers className="w-4 h-4" />
@@ -171,7 +171,7 @@ export default function FlashcardViewer({
           <button
             onClick={() => setViewMode('list')}
             className={`p-1.5 rounded-lg text-xs flex items-center gap-1.5 transition-all font-semibold ${
-              viewMode === 'list' ? 'bg-amber-500 shadow-sm text-black' : 'text-amber-100/70 hover:text-amber-400 hover:bg-black/60'
+              viewMode === 'list' ? 'bg-amber-500 shadow-sm text-black' : 'text-amber-100/70 hover:text-amber-400 hover:bg-black/30'
             }`}
           >
             <List className="w-4 h-4" />
@@ -188,7 +188,7 @@ export default function FlashcardViewer({
               <span className="font-semibold text-amber-400">Thẻ {currentIndex + 1}</span>
               <span>/ {cards.length}</span>
               {currentChapter && (
-                <span className="hidden sm:inline px-2 py-0.5 rounded bg-black/60 border border-amber-500/30 text-amber-400">
+                <span className="hidden sm:inline px-2 py-0.5 rounded bg-black/30 border border-amber-500/30 text-amber-400">
                   {currentChapter.number}
                 </span>
               )}
@@ -197,7 +197,7 @@ export default function FlashcardViewer({
             <div className="flex items-center gap-2">
               <button
                 onClick={handleShuffle}
-                className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-black/40 hover:bg-black/60 text-amber-100/70 hover:text-amber-400 transition-colors border border-transparent"
+                className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-black/30 hover:bg-black/30 text-amber-100/70 hover:text-amber-400 transition-colors border border-transparent"
                 title="Trộn ngẫu nhiên thẻ"
               >
                 <Shuffle className="w-3.5 h-3.5" />
@@ -209,7 +209,7 @@ export default function FlashcardViewer({
                 className={`flex items-center gap-1 px-2.5 py-1 rounded-lg transition-colors border ${
                   isAutoPlaying 
                     ? 'bg-amber-500 text-black font-semibold border-amber-500' 
-                    : 'bg-black/40 hover:bg-black/60 text-amber-100/70 hover:text-amber-400 border-transparent'
+                    : 'bg-black/30 hover:bg-black/30 text-amber-100/70 hover:text-amber-400 border-transparent'
                 }`}
                 title="Tự động lật và chuyển thẻ"
               >
@@ -236,10 +236,10 @@ export default function FlashcardViewer({
               }`}
             >
               {/* FRONT OF CARD */}
-              <div className="absolute inset-0 w-full h-full backface-hidden glass-panel p-8 sm:p-12 flex flex-col justify-between border border-amber-500/20 bg-gradient-to-br from-[#1a0505] via-[#150404] to-[#0f0202] shadow-2xl">
+              <div className="absolute inset-0 w-full h-full backface-hidden glass-panel p-8 sm:p-12 flex flex-col justify-between border border-amber-500/20 bg-gradient-to-br from-[#380a0a] via-[#2b0707] to-[#1f0404] shadow-2xl">
                 {/* Header info */}
                 <div className="flex items-center justify-between">
-                  <span className="px-3 py-1 rounded-full bg-black/60 border border-amber-500/30 text-amber-400 text-xs font-semibold">
+                  <span className="px-3 py-1 rounded-full bg-black/30 border border-amber-500/30 text-amber-400 text-xs font-semibold">
                     {currentCard.category}
                   </span>
                   <div className="flex items-center gap-2">
@@ -248,7 +248,7 @@ export default function FlashcardViewer({
                         e.stopPropagation();
                         handleSpeak(currentCard.term);
                       }}
-                      className="p-2 rounded-full bg-black/40 hover:bg-amber-500/20 text-amber-100/70 hover:text-amber-400 transition-colors"
+                      className="p-2 rounded-full bg-black/30 hover:bg-amber-500/20 text-amber-100/70 hover:text-amber-400 transition-colors"
                       title="Đọc thuật ngữ"
                     >
                       <Volume2 className="w-4 h-4" />
@@ -261,7 +261,7 @@ export default function FlashcardViewer({
                       className={`p-2 rounded-full transition-colors ${
                         isCurrentMastered 
                           ? 'bg-emerald-950/40 text-emerald-400 border border-emerald-500/30' 
-                          : 'bg-black/40 text-amber-100/70 hover:text-emerald-400 border border-transparent'
+                          : 'bg-black/30 text-amber-100/70 hover:text-emerald-400 border border-transparent'
                       }`}
                       title={isCurrentMastered ? 'Đã thuộc thẻ này' : 'Đánh dấu đã thuộc'}
                     >
@@ -288,7 +288,7 @@ export default function FlashcardViewer({
               </div>
 
               {/* BACK OF CARD */}
-              <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 glass-panel p-6 sm:p-10 flex flex-col justify-between border border-amber-500/30 bg-gradient-to-br from-[#1a0505] via-[#150404] to-[#0f0202] shadow-2xl overflow-y-auto">
+              <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 glass-panel p-6 sm:p-10 flex flex-col justify-between border border-amber-500/30 bg-gradient-to-br from-[#380a0a] via-[#2b0707] to-[#1f0404] shadow-2xl overflow-y-auto">
                 <div>
                   {/* Top category & speak */}
                   <div className="flex items-center justify-between mb-4">
@@ -301,7 +301,7 @@ export default function FlashcardViewer({
                         e.stopPropagation();
                         handleSpeak(`${currentCard.term}. ${currentCard.definition}`);
                       }}
-                      className="p-2 rounded-full bg-black/40 hover:bg-amber-500/20 text-amber-100/70 hover:text-amber-400 transition-colors"
+                      className="p-2 rounded-full bg-black/30 hover:bg-amber-500/20 text-amber-100/70 hover:text-amber-400 transition-colors"
                       title="Đọc toàn bộ định nghĩa"
                     >
                       <Volume2 className="w-4 h-4" />
@@ -309,7 +309,7 @@ export default function FlashcardViewer({
                   </div>
 
                   {/* Definition text */}
-                  <div className="mb-5 p-4 rounded-xl bg-black/40 border border-amber-500/30">
+                  <div className="mb-5 p-4 rounded-xl bg-black/30 border border-amber-500/30">
                     <p className="text-sm sm:text-base text-amber-50 leading-relaxed">
                       {currentCard.definition}
                     </p>
@@ -390,7 +390,7 @@ export default function FlashcardViewer({
             <div className="flex items-center gap-3">
               <button
                 onClick={handlePrev}
-                className="p-3 rounded-2xl bg-black/60 hover:bg-black/80 border border-amber-500/30 text-amber-400 transition-all hover:scale-105 active:scale-95"
+                className="p-3 rounded-2xl bg-black/30 hover:bg-black/80 border border-amber-500/30 text-amber-400 transition-all hover:scale-105 active:scale-95"
                 title="Phím tắt: ←"
               >
                 <ChevronLeft className="w-5 h-5" />
@@ -406,7 +406,7 @@ export default function FlashcardViewer({
 
               <button
                 onClick={handleNext}
-                className="p-3 rounded-2xl bg-black/60 hover:bg-black/80 border border-amber-500/30 text-amber-400 transition-all hover:scale-105 active:scale-95"
+                className="p-3 rounded-2xl bg-black/30 hover:bg-black/80 border border-amber-500/30 text-amber-400 transition-all hover:scale-105 active:scale-95"
                 title="Phím tắt: →"
               >
                 <ChevronRight className="w-5 h-5" />
@@ -422,7 +422,7 @@ export default function FlashcardViewer({
             return (
               <div 
                 key={card.id}
-                className={`glass-panel p-5 border transition-all bg-black/40 ${
+                className={`glass-panel p-5 border transition-all bg-black/30 ${
                   isMastered ? 'border-emerald-500/30 bg-emerald-950/20' : 'border-amber-500/20'
                 }`}
               >
@@ -438,7 +438,7 @@ export default function FlashcardViewer({
                     className={`p-1.5 rounded-lg text-xs flex items-center gap-1 transition-colors ${
                       isMastered 
                         ? 'bg-emerald-950/40 text-emerald-400 border border-emerald-500/40' 
-                        : 'bg-black/60 text-amber-100/70 hover:text-amber-400 border border-transparent'
+                        : 'bg-black/30 text-amber-100/70 hover:text-amber-400 border border-transparent'
                     }`}
                   >
                     <CheckCircle2 className="w-3.5 h-3.5" />

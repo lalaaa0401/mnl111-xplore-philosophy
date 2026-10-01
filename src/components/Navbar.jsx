@@ -38,7 +38,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-1 bg-black/40 backdrop-blur-md p-1.5 rounded-full border border-amber-500/20 shadow-sm">
+        <nav className="hidden md:flex items-center gap-1 bg-black/30 backdrop-blur-md p-1.5 rounded-full border border-amber-500/20 shadow-sm">
           {navItems.map((item) => {
             const Icon = item.icon;
             const isActive = activeTab === item.id && !item.action;
@@ -64,12 +64,12 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
           {/* Quick Search */}
           <button
             onClick={onOpenGlossary}
-            className="hidden sm:flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-black/40 border border-amber-500/20 text-xs text-amber-50/80 font-semibold hover:border-amber-400/50 hover:text-amber-400 transition-all cursor-pointer backdrop-blur-sm shadow-sm"
+            className="hidden sm:flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-black/30 border border-amber-500/20 text-xs text-amber-50/80 font-semibold hover:border-amber-400/50 hover:text-amber-400 transition-all cursor-pointer backdrop-blur-sm shadow-sm"
             title="Bấm Ctrl + K để tra cứu nhanh"
           >
             <Search className="w-3.5 h-3.5 text-amber-500" />
             <span>Tra thuật ngữ</span>
-            <kbd className="px-1.5 py-0.5 rounded bg-black/60 border border-amber-500/30 text-[10px] text-amber-200/70 font-mono">
+            <kbd className="px-1.5 py-0.5 rounded bg-black/30 border border-amber-500/30 text-[10px] text-amber-200/70 font-mono">
               Ctrl K
             </kbd>
           </button>
@@ -83,7 +83,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-xl bg-black/40 text-amber-50/80 hover:text-amber-400 border border-amber-500/20 backdrop-blur-sm"
+            className="md:hidden p-2 rounded-xl bg-black/30 text-amber-50/80 hover:text-amber-400 border border-amber-500/20 backdrop-blur-sm"
             aria-label="Toggle Menu"
           >
             {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -93,7 +93,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
 
       {/* Mobile Dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-amber-500/20 bg-[#1a0505]/95 backdrop-blur-xl px-4 py-4 space-y-2">
+        <div className="md:hidden border-t border-amber-500/20 bg-[#380a0a]/95 backdrop-blur-xl px-4 py-4 space-y-2">
           {navItems.map((item) => {
             const Icon = item.icon;
             const isActive = activeTab === item.id && !item.action;
