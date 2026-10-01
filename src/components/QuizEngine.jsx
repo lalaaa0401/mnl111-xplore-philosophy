@@ -122,8 +122,8 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
     return (
       <div className="py-10 max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-600/10 border border-cyan-600/30 text-cyan-700 text-xs font-bold mb-4 shadow-sm">
-            <Award className="w-3.5 h-3.5 text-cyan-700" />
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold mb-4 shadow-sm">
+            <Award className="w-3.5 h-3.5 text-amber-400" />
             <span>Phòng Thi Trắc Nghiệm Chuẩn Hóa</span>
           </div>
           <h2 className="font-platypi text-3xl sm:text-4xl font-bold text-amber-50 mb-3">
@@ -175,7 +175,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="glass-panel p-6 gold-border-glow flex flex-col justify-between">
             <div>
-              <div className="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-500 mb-4">
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4">
                 <BookOpen className="w-6 h-6" />
               </div>
               <h3 className="font-platypi text-xl font-bold text-amber-50 mb-2">Chế Độ Luyện Tập</h3>
