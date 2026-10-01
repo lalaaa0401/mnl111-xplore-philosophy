@@ -12,7 +12,7 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
           style={{ backgroundImage: `url('/bg-marx.jpg')` }}
         />
         {/* Subtle Dark Overlay to ensure text readability on the generated dark image */}
-        <div className="absolute inset-0 z-[-1] bg-black/40 bg-gradient-to-b from-black/20 via-black/50 to-[#1a0505]" />
+        <div className="absolute inset-0 z-[-1] bg-black/20 bg-gradient-to-t from-[#1a0505] via-transparent to-[#1a0505]/90" />
 
 
         <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col items-center flex-1 justify-center pb-24">
@@ -52,8 +52,8 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
       <section className="py-16 -mt-10 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="glass-panel p-7 gold-border-glow transition-all duration-300 hover:-translate-y-1">
-              <div className="w-12 h-12 rounded-2xl bg-amber-600/20 border border-amber-600/30 flex items-center justify-center text-amber-500 mb-5">
+            <div className="glass-panel bg-black/60 p-7 gold-border-glow transition-all duration-300 hover:-translate-y-1">
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-5">
                 <BookOpen className="w-6 h-6" />
               </div>
               <h3 className="font-platypi text-xl font-bold text-amber-50 mb-2">3 Chương Chuẩn Hóa</h3>
@@ -62,8 +62,8 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
               </p>
             </div>
 
-            <div className="glass-panel p-7 gold-border-glow transition-all duration-300 hover:-translate-y-1">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-500 mb-5">
+            <div className="glass-panel bg-black/60 p-7 gold-border-glow transition-all duration-300 hover:-translate-y-1">
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-5">
                 <CheckCircle className="w-6 h-6" />
               </div>
               <h3 className="font-platypi text-xl font-bold text-amber-50 mb-2">{totalFlashcards}+ Thẻ Ghi Nhớ 3D</h3>
@@ -72,8 +72,8 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
               </p>
             </div>
 
-            <div className="glass-panel p-7 gold-border-glow transition-all duration-300 hover:-translate-y-1">
-              <div className="w-12 h-12 rounded-2xl bg-cyan-500/20 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-5">
+            <div className="glass-panel bg-black/60 p-7 gold-border-glow transition-all duration-300 hover:-translate-y-1">
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-5">
                 <Award className="w-6 h-6" />
               </div>
               <h3 className="font-platypi text-xl font-bold text-amber-50 mb-2">{totalQuestions}+ Câu Trắc Nghiệm</h3>
