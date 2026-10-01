@@ -9,10 +9,14 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
         {/* Background Image */}
         <div 
           className="absolute inset-0 z-[-2] bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url('/bg-marx.jpg')` }}
+          style={{ 
+            backgroundImage: `url('/bg-marx.jpg')`,
+            WebkitMaskImage: 'linear-gradient(to top, transparent 0%, black 15%, black 100%)',
+            maskImage: 'linear-gradient(to top, transparent 0%, black 15%, black 100%)'
+          }}
         />
         {/* Subtle Dark Overlay to ensure text readability on the generated dark image */}
-        <div className="absolute inset-0 z-[-1] bg-black/20 bg-gradient-to-t from-[#380a0a] via-transparent to-[#380a0a]/90" />
+        <div className="absolute inset-0 z-[-1] bg-black/20 bg-gradient-to-b from-[#380a0a]/90 via-transparent to-transparent" />
 
 
         <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col items-center flex-1 justify-center pb-24">
