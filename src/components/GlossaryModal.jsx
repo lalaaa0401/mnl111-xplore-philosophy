@@ -31,7 +31,7 @@ export default function GlossaryModal({ isOpen, onClose, glossary }) {
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
       <div 
         onClick={(e) => e.stopPropagation()}
-        className="glass-panel w-full max-w-3xl max-h-[85vh] flex flex-col border border-amber-500/20 bg-[#380a0a] shadow-2xl rounded-3xl overflow-hidden"
+        className="glass-panel w-full max-w-3xl max-h-[85vh] flex flex-col border border-amber-500/20 bg-[#271010] shadow-2xl rounded-3xl overflow-hidden"
       >
         {/* Modal Header */}
         <div className="p-5 border-b border-amber-500/20 flex items-center justify-between bg-black/30">

@@ -18,7 +18,7 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url('/bg-marx.jpg')` }}
           />
-          <div className="absolute inset-0 bg-black/30 bg-gradient-to-b from-[#380a0a]/95 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-black/30 bg-gradient-to-b from-[#271010]/95 via-transparent to-transparent" />
         </div>
 
 

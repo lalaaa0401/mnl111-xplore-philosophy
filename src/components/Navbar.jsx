@@ -93,7 +93,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
 
       {/* Mobile Dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-amber-500/20 bg-[#380a0a]/95 backdrop-blur-xl px-4 py-4 space-y-2">
+        <div className="md:hidden border-t border-amber-500/20 bg-[#271010]/95 backdrop-blur-xl px-4 py-4 space-y-2">
           {navItems.map((item) => {
             const Icon = item.icon;
             const isActive = activeTab === item.id && !item.action;

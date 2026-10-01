@@ -236,7 +236,7 @@ export default function FlashcardViewer({
               }`}
             >
               {/* FRONT OF CARD */}
-              <div className="absolute inset-0 w-full h-full backface-hidden glass-panel p-8 sm:p-12 flex flex-col justify-between border border-amber-500/20 bg-gradient-to-br from-[#380a0a] via-[#2b0707] to-[#1f0404] shadow-2xl">
+              <div className="absolute inset-0 w-full h-full backface-hidden glass-panel p-8 sm:p-12 flex flex-col justify-between border border-amber-500/20 bg-gradient-to-br from-[#271010] via-[#1f0d0d] to-[#170909] shadow-2xl">
                 {/* Header info */}
                 <div className="flex items-center justify-between">
                   <span className="px-3 py-1 rounded-full bg-black/30 border border-amber-500/30 text-amber-400 text-xs font-semibold">
@@ -288,7 +288,7 @@ export default function FlashcardViewer({
               </div>
 
               {/* BACK OF CARD */}
-              <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 glass-panel p-6 sm:p-10 flex flex-col justify-between border border-amber-500/30 bg-gradient-to-br from-[#380a0a] via-[#2b0707] to-[#1f0404] shadow-2xl overflow-y-auto">
+              <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 glass-panel p-6 sm:p-10 flex flex-col justify-between border border-amber-500/30 bg-gradient-to-br from-[#271010] via-[#1f0d0d] to-[#170909] shadow-2xl overflow-y-auto">
                 <div>
                   {/* Top category & speak */}
                   <div className="flex items-center justify-between mb-4">

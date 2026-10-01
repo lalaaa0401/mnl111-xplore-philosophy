@@ -227,7 +227,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
     return (
       <div className="py-10 max-w-4xl mx-auto px-4 sm:px-6">
         {/* Score Summary Box */}
-        <div className="glass-panel p-8 text-center border border-amber-500/30 mb-8 bg-gradient-to-b from-[#380a0a] to-[#1f0404]">
+        <div className="glass-panel p-8 text-center border border-amber-500/30 mb-8 bg-gradient-to-b from-[#271010] to-[#170909]">
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-tr from-amber-500 to-amber-300 text-black font-extrabold text-3xl font-platypi shadow-xl shadow-amber-500/30 mb-4 animate-bounce">
             {score}
           </div>
@@ -360,7 +360,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
   return (
     <div className="py-6 max-w-5xl mx-auto px-4 sm:px-6">
       {/* Top Bar: Timer, Progress & Quick Submit */}
-      <div className="glass-panel p-4 mb-6 flex flex-wrap items-center justify-between gap-4 border border-amber-500/20 bg-[#380a0a]/60">
+      <div className="glass-panel p-4 mb-6 flex flex-wrap items-center justify-between gap-4 border border-amber-500/20 bg-[#271010]/60">
         <div className="flex items-center gap-3">
           <span className="text-xs font-semibold text-amber-100/70">
             Câu <strong>{currentIndex + 1}</strong> / {currentQuestions.length}
@@ -397,7 +397,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {/* Main Question Box */}
         <div className="lg:col-span-3 space-y-6">
-          <div className="glass-panel p-6 sm:p-8 border border-amber-500/20 bg-gradient-to-br from-[#380a0a] via-[#2b0707] to-[#1f0404]">
+          <div className="glass-panel p-6 sm:p-8 border border-amber-500/20 bg-gradient-to-br from-[#271010] via-[#1f0d0d] to-[#170909]">
             <div className="flex items-center justify-between mb-4">
               <span className="text-xs font-semibold px-3 py-1 rounded-full bg-amber-500/15 border border-amber-600/30 text-amber-500">
                 Câu {currentIndex + 1}
