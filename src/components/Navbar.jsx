@@ -29,16 +29,16 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
           onClick={() => setActiveTab('overview')}
           className="flex items-baseline gap-2 cursor-pointer select-none group"
         >
-          <span className="font-platypi italic font-light text-3xl tracking-tight text-slate-900 group-hover:opacity-70 transition-opacity">
+          <span className="font-platypi italic font-bold text-3xl tracking-tight text-amber-400 group-hover:opacity-70 transition-opacity drop-shadow-md">
             Dialectica.
           </span>
-          <span className="text-[10px] tracking-widest text-slate-500 font-medium uppercase mt-1">
+          <span className="text-[10px] tracking-widest text-amber-100/60 font-medium uppercase mt-1">
             MNL111
           </span>
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-1 bg-slate-900/5 p-1.5 rounded-full border border-slate-900/10">
+        <nav className="hidden md:flex items-center gap-1 bg-black/40 backdrop-blur-md p-1.5 rounded-full border border-amber-500/20 shadow-sm">
           {navItems.map((item) => {
             const Icon = item.icon;
             const isActive = activeTab === item.id && !item.action;
@@ -49,7 +49,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
                 className={`flex items-center gap-2 px-4 py-2 rounded-full text-xs lg:text-sm font-medium transition-all ${
                   isActive
                     ? 'bg-amber-500 text-slate-950 font-bold shadow-md shadow-amber-500/20'
-                    : 'text-slate-800 font-semibold hover:text-black hover:bg-slate-900/10'
+                    : 'text-amber-50/80 font-semibold hover:text-amber-400 hover:bg-white/5'
                 }`}
               >
                 <Icon className="w-4 h-4" />
@@ -64,12 +64,12 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
           {/* Quick Search */}
           <button
             onClick={onOpenGlossary}
-            className="hidden sm:flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-slate-900/5 border border-slate-900/10 text-xs text-slate-800 font-semibold hover:border-amber-600/40 hover:text-amber-700 transition-all cursor-pointer"
+            className="hidden sm:flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-black/40 border border-amber-500/20 text-xs text-amber-50/80 font-semibold hover:border-amber-400/50 hover:text-amber-400 transition-all cursor-pointer backdrop-blur-sm shadow-sm"
             title="Bấm Ctrl + K để tra cứu nhanh"
           >
-            <Search className="w-3.5 h-3.5 text-amber-600" />
+            <Search className="w-3.5 h-3.5 text-amber-500" />
             <span>Tra thuật ngữ</span>
-            <kbd className="px-1.5 py-0.5 rounded bg-white/40 border border-slate-900/10 text-[10px] text-slate-600 font-mono">
+            <kbd className="px-1.5 py-0.5 rounded bg-black/60 border border-amber-500/30 text-[10px] text-amber-200/70 font-mono">
               Ctrl K
             </kbd>
           </button>
@@ -83,7 +83,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-xl bg-slate-900/5 text-slate-700 hover:text-slate-900 border border-slate-900/10"
+            className="md:hidden p-2 rounded-xl bg-black/40 text-amber-50/80 hover:text-amber-400 border border-amber-500/20 backdrop-blur-sm"
             aria-label="Toggle Menu"
           >
             {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -93,7 +93,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
 
       {/* Mobile Dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-slate-900/10 bg-white px-4 py-4 space-y-2">
+        <div className="md:hidden border-t border-amber-500/20 bg-[#1a0505]/95 backdrop-blur-xl px-4 py-4 space-y-2">
           {navItems.map((item) => {
             const Icon = item.icon;
             const isActive = activeTab === item.id && !item.action;
@@ -104,7 +104,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenGlossary, master
                 className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left text-sm font-medium transition-colors ${
                   isActive
                     ? 'bg-amber-500 text-slate-950 font-semibold'
-                    : 'text-slate-700 hover:bg-slate-900/5'
+                    : 'text-amber-50/80 hover:bg-white/5 hover:text-amber-400'
                 }`}
               >
                 <Icon className="w-5 h-5" />
