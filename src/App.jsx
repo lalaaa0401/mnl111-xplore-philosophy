@@ -80,7 +80,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 font-ui selection:bg-amber-500 selection:text-black">
+    <div className="min-h-screen flex flex-col bg-transparent text-amber-50 font-ui selection:bg-amber-500 selection:text-black">
       {/* Top Navigation Bar */}
       <Navbar
         activeTab={activeTab}
@@ -123,10 +123,10 @@ export default function App() {
             <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <h2 className="font-platypi text-2xl sm:text-3xl font-bold text-slate-900">
+                  <h2 className="font-platypi text-2xl sm:text-3xl font-bold text-amber-50">
                     Flashcard <span className="gold-gradient-text italic">Ghi Nhớ 3D</span>
                   </h2>
-                  <p className="text-xs text-slate-600 mt-1">
+                  <p className="text-xs text-amber-100/70 mt-1">
                     Lật thẻ, nghe phát âm và phân loại "Đã nhớ / Cần ôn lại" theo phương pháp Spaced Repetition.
                   </p>
                 </div>
