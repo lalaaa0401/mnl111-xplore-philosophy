@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowRight, BookOpen, CheckCircle, Flame, Layers, Award, Compass, Sparkles } from 'lucide-react';
-import heroBg from '../assets/hero-bg.jpg';
 
 export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlashcards, totalQuestions }) {
   return (
@@ -10,7 +9,7 @@ export default function HeroSection({ onStartFlashcards, onStartQuiz, totalFlash
         {/* Background Image */}
         <div 
           className="absolute inset-0 z-[-2] bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroBg})` }}
+          style={{ backgroundImage: `url('/bg-marx.jpg')` }}
         />
         {/* Subtle Dark Overlay to ensure text readability on the generated dark image */}
         <div className="absolute inset-0 z-[-1] bg-white/40 bg-gradient-to-b from-transparent via-black/20 to-slate-50" />
