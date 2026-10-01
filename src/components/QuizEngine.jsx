@@ -126,17 +126,17 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
             <Award className="w-3.5 h-3.5 text-cyan-700" />
             <span>Phòng Thi Trắc Nghiệm Chuẩn Hóa</span>
           </div>
-          <h2 className="font-platypi text-3xl sm:text-4xl font-bold text-slate-900 mb-3">
+          <h2 className="font-platypi text-3xl sm:text-4xl font-bold text-amber-50 mb-3">
             Thử Thách Vượt Ải <span className="gold-gradient-text italic">Triết Học</span>
           </h2>
-          <p className="text-slate-600 text-sm max-w-lg mx-auto">
+          <p className="text-amber-100/80 text-sm max-w-lg mx-auto">
             Kiểm tra mức độ thấu hiểu các nguyên lý, quy luật và phạm trù triết học qua ngân hàng câu hỏi trắc nghiệm thực chiến.
           </p>
         </div>
 
         {/* Chapter Selection */}
-        <div className="glass-panel p-6 mb-8 border border-slate-900/10">
-          <label className="block text-xs uppercase font-bold text-slate-600 tracking-wider mb-3">
+        <div className="glass-panel p-6 mb-8 border border-amber-500/20 bg-black/40">
+          <label className="block text-xs uppercase font-bold text-amber-100/60 tracking-wider mb-3">
             Chọn phạm vi ôn luyện:
           </label>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
@@ -145,7 +145,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
               className={`p-3.5 rounded-xl border text-left transition-all ${
                 selectedChapterId === 'all'
                   ? 'bg-amber-500 text-black border-amber-400 font-bold shadow-lg shadow-amber-500/20'
-                  : 'bg-slate-900/5 border-slate-900/10 text-slate-700 hover:bg-slate-900/10'
+                  : 'bg-black/60 border-amber-500/20 text-amber-100/70 hover:bg-black/80 hover:text-amber-400'
               }`}
             >
               <div className="text-xs uppercase opacity-80">Tổng hợp</div>
@@ -160,7 +160,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
                   className={`p-3.5 rounded-xl border text-left transition-all ${
                     selectedChapterId === chap.id
                       ? 'bg-amber-500 text-black border-amber-400 font-bold shadow-lg shadow-amber-500/20'
-                      : 'bg-slate-900/5 border-slate-900/10 text-slate-700 hover:bg-slate-900/10'
+                      : 'bg-black/60 border-amber-500/20 text-amber-100/70 hover:bg-black/80 hover:text-amber-400'
                   }`}
                 >
                   <div className="text-xs uppercase opacity-80">{chap.number}</div>
@@ -175,11 +175,11 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="glass-panel p-6 gold-border-glow flex flex-col justify-between">
             <div>
-              <div className="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-600 mb-4">
+              <div className="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-500 mb-4">
                 <BookOpen className="w-6 h-6" />
               </div>
-              <h3 className="font-platypi text-xl font-bold text-slate-900 mb-2">Chế Độ Luyện Tập</h3>
-              <p className="text-xs text-slate-600 leading-relaxed mb-4">
+              <h3 className="font-platypi text-xl font-bold text-amber-50 mb-2">Chế Độ Luyện Tập</h3>
+              <p className="text-xs text-amber-100/80 leading-relaxed mb-4">
                 Không giới hạn thời gian. Hiển thị đáp án đúng và lời giải thích giáo trình chi tiết ngay sau mỗi câu chọn. Phù hợp để củng cố kiến thức.
               </p>
             </div>
@@ -194,11 +194,11 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
 
           <div className="glass-panel p-6 gold-border-glow flex flex-col justify-between">
             <div>
-              <div className="w-12 h-12 rounded-2xl bg-amber-600/10 border border-amber-600/30 flex items-center justify-center text-amber-600 mb-4">
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-500 mb-4">
                 <Clock className="w-6 h-6" />
               </div>
-              <h3 className="font-platypi text-xl font-bold text-slate-900 mb-2">Chế Độ Thi Thử Áp Lực</h3>
-              <p className="text-xs text-slate-600 leading-relaxed mb-4">
+              <h3 className="font-platypi text-xl font-bold text-amber-50 mb-2">Chế Độ Thi Thử Áp Lực</h3>
+              <p className="text-xs text-amber-100/80 leading-relaxed mb-4">
                 Mô phỏng kỳ thi trắc nghiệm đại học. Đếm ngược 25 phút, đánh dấu câu hỏi cần xem lại, chỉ công bố điểm số và đáp án sau khi nộp bài.
               </p>
             </div>
@@ -227,15 +227,15 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
     return (
       <div className="py-10 max-w-4xl mx-auto px-4 sm:px-6">
         {/* Score Summary Box */}
-        <div className="glass-panel p-8 text-center border border-amber-600/30 mb-8 bg-gradient-to-b from-[#181d26] to-[#0f1217]">
+        <div className="glass-panel p-8 text-center border border-amber-500/30 mb-8 bg-gradient-to-b from-[#1a0505] to-[#0f0202]">
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-tr from-amber-500 to-amber-300 text-black font-extrabold text-3xl font-platypi shadow-xl shadow-amber-500/30 mb-4 animate-bounce">
             {score}
           </div>
-          <h2 className="font-platypi text-2xl sm:text-3xl font-bold text-slate-900 mb-2">
+          <h2 className="font-platypi text-2xl sm:text-3xl font-bold text-amber-50 mb-2">
             {percentage >= 80 ? 'Xuất Sắc! Bạn Đã Làm Chủ Kiến Thức 🎉' : percentage >= 50 ? 'Khá Tốt! Cố Gắng Ôn Kỹ Thêm Nhé 👏' : 'Cần Nỗ Lực Ôn Lại Flashcard Thêm 📚'}
           </h2>
-          <p className="text-slate-600 text-sm mb-6">
-            Bạn đã trả lời đúng <strong className="text-emerald-600">{correctCount}</strong> / {currentQuestions.length} câu hỏi ({percentage}%).
+          <p className="text-amber-100/80 text-sm mb-6">
+            Bạn đã trả lời đúng <strong className="text-emerald-400">{correctCount}</strong> / {currentQuestions.length} câu hỏi ({percentage}%).
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">
@@ -267,8 +267,8 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
         </div>
 
         {/* Detailed Question Review List */}
-        <h3 className="font-platypi text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-          <BookOpen className="w-5 h-5 text-amber-600" />
+        <h3 className="font-platypi text-xl font-bold text-amber-300 mb-4 flex items-center gap-2">
+          <BookOpen className="w-5 h-5 text-amber-400" />
           <span>Chi Tiết Từng Câu Hỏi & Lời Giải Thích:</span>
         </h3>
 
@@ -283,17 +283,17 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
                 key={q.id}
                 className={`glass-panel p-6 border transition-all ${
                   isCorrect 
-                    ? 'border-emerald-500/30 bg-emerald-950/10' 
-                    : 'border-rose-500/30 bg-rose-950/10'
+                    ? 'border-emerald-500/30 bg-emerald-950/20' 
+                    : 'border-rose-500/30 bg-rose-950/20'
                 }`}
               >
                 <div className="flex items-start justify-between gap-4 mb-3">
-                  <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-slate-900/5 border border-slate-900/10 text-slate-700">
+                  <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-black/40 border border-amber-500/20 text-amber-100/70">
                     Câu {idx + 1}
                   </span>
                   <div className="flex items-center gap-1.5 text-xs font-semibold">
                     {isCorrect ? (
-                      <span className="text-emerald-600 flex items-center gap-1">
+                      <span className="text-emerald-400 flex items-center gap-1">
                         <CheckCircle2 className="w-4 h-4" /> Đúng
                       </span>
                     ) : (
@@ -304,14 +304,14 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
                   </div>
                 </div>
 
-                <h4 className="font-semibold text-slate-900 text-base mb-4">{q.question}</h4>
+                <h4 className="font-semibold text-amber-50 text-base mb-4">{q.question}</h4>
 
                 <div className="space-y-2 mb-4">
                   {q.options.map((opt, oIdx) => {
                     const isSelected = userAns === oIdx;
                     const isTheRightAnswer = oIdx === q.correctAnswerIndex;
 
-                    let optionStyle = 'bg-slate-900/5 border-slate-900/10 text-slate-700';
+                    let optionStyle = 'bg-black/40 border-amber-500/20 text-amber-100/80';
                     if (isTheRightAnswer) {
                       optionStyle = 'bg-emerald-500/20 border-emerald-500/50 text-emerald-200 font-semibold';
                     } else if (isSelected && !isTheRightAnswer) {
@@ -332,14 +332,14 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
                 </div>
 
                 {/* Explanation block */}
-                <div className="p-3.5 rounded-xl bg-white/40 border border-slate-900/10 text-xs text-slate-700 space-y-1">
-                  <div className="font-semibold text-amber-600 flex items-center gap-1.5">
+                <div className="p-3.5 rounded-xl bg-black/40 border border-amber-500/30 text-xs text-amber-100/80 space-y-1">
+                  <div className="font-semibold text-amber-400 flex items-center gap-1.5">
                     <Sparkles className="w-3.5 h-3.5" />
                     <span>Giải thích chuẩn giáo trình:</span>
                   </div>
                   <p>{q.explanation}</p>
                   {q.reference && (
-                    <div className="text-[11px] text-slate-500 italic mt-1">
+                    <div className="text-[11px] text-amber-100/50 italic mt-1">
                       Nguồn: {q.reference}
                     </div>
                   )}
@@ -360,17 +360,17 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
   return (
     <div className="py-6 max-w-5xl mx-auto px-4 sm:px-6">
       {/* Top Bar: Timer, Progress & Quick Submit */}
-      <div className="glass-panel p-4 mb-6 flex flex-wrap items-center justify-between gap-4 border border-slate-900/10">
+      <div className="glass-panel p-4 mb-6 flex flex-wrap items-center justify-between gap-4 border border-amber-500/20 bg-[#1a0505]/60">
         <div className="flex items-center gap-3">
-          <span className="text-xs font-semibold text-slate-600">
+          <span className="text-xs font-semibold text-amber-100/70">
             Câu <strong>{currentIndex + 1}</strong> / {currentQuestions.length}
           </span>
           <button
             onClick={() => handleToggleFlag(currentQ?.id)}
-            className={`px-3 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-colors ${
+            className={`px-3 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-colors border ${
               isFlagged 
-                ? 'bg-amber-500 text-black' 
-                : 'bg-slate-900/5 text-slate-600 hover:text-slate-900'
+                ? 'bg-amber-500 text-black border-amber-500' 
+                : 'bg-black/40 text-amber-100/70 hover:text-amber-400 border-transparent'
             }`}
           >
             <Flag className="w-3.5 h-3.5" />
@@ -397,17 +397,17 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {/* Main Question Box */}
         <div className="lg:col-span-3 space-y-6">
-          <div className="glass-panel p-6 sm:p-8 border border-white/15 bg-gradient-to-br from-[#161b24] to-[#0f1217]">
+          <div className="glass-panel p-6 sm:p-8 border border-amber-500/20 bg-gradient-to-br from-[#1a0505] via-[#150404] to-[#0f0202]">
             <div className="flex items-center justify-between mb-4">
-              <span className="text-xs font-semibold px-3 py-1 rounded-full bg-amber-500/15 border border-amber-600/30 text-amber-600">
+              <span className="text-xs font-semibold px-3 py-1 rounded-full bg-amber-500/15 border border-amber-600/30 text-amber-500">
                 Câu {currentIndex + 1}
               </span>
-              <span className="text-xs text-slate-600 capitalize">
+              <span className="text-xs text-amber-100/60 capitalize">
                 Độ khó: {currentQ?.difficulty || 'Trung bình'}
               </span>
             </div>
 
-            <h3 className="font-platypi text-xl sm:text-2xl font-bold text-slate-900 mb-6 leading-snug">
+            <h3 className="font-platypi text-xl sm:text-2xl font-bold text-amber-50 mb-6 leading-snug">
               {currentQ?.question}
             </h3>
 
@@ -418,7 +418,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
                 const isPractice = quizMode === 'practice';
                 const isCorrect = oIdx === currentQ.correctAnswerIndex;
 
-                let btnStyle = 'bg-slate-900/5 hover:bg-slate-900/10 border-slate-900/10 text-slate-800';
+                let btnStyle = 'bg-black/40 hover:bg-black/60 border-amber-500/20 text-amber-100/80 hover:text-amber-50';
                 if (isSelected) {
                   btnStyle = 'bg-amber-500 text-black border-amber-400 font-bold shadow-lg shadow-amber-500/20';
                 }
@@ -426,7 +426,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
                 // In practice mode, show correct/incorrect if answered
                 if (isPractice && isAnswered) {
                   if (isCorrect) {
-                    btnStyle = 'bg-emerald-500/20 border-emerald-500 text-emerald-600 font-semibold';
+                    btnStyle = 'bg-emerald-500/20 border-emerald-500 text-emerald-400 font-semibold';
                   } else if (isSelected && !isCorrect) {
                     btnStyle = 'bg-rose-500/20 border-rose-500 text-rose-300';
                   }
@@ -439,7 +439,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
                     className={`w-full p-4 rounded-2xl border text-left text-sm sm:text-base flex items-center justify-between transition-all ${btnStyle}`}
                   >
                     <div className="flex items-center gap-3">
-                      <span className="w-7 h-7 rounded-lg bg-black/30 border border-slate-900/10 flex items-center justify-center text-xs font-bold shrink-0">
+                      <span className="w-7 h-7 rounded-lg bg-black/60 border border-amber-500/30 flex items-center justify-center text-xs font-bold shrink-0">
                         {String.fromCharCode(65 + oIdx)}
                       </span>
                       <span>{optionText}</span>
@@ -454,14 +454,14 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
 
             {/* Practice mode instant explanation */}
             {quizMode === 'practice' && isAnswered && (
-              <div className="mt-6 p-4 rounded-2xl bg-amber-600/10 border border-amber-500/20 text-xs sm:text-sm text-slate-800">
-                <div className="font-bold text-amber-600 flex items-center gap-1.5 mb-1">
+              <div className="mt-6 p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-xs sm:text-sm text-amber-100/80">
+                <div className="font-bold text-amber-500 flex items-center gap-1.5 mb-1">
                   <Sparkles className="w-4 h-4" />
                   <span>Giải thích chi tiết:</span>
                 </div>
-                <p className="text-slate-700 leading-relaxed">{currentQ.explanation}</p>
+                <p className="text-amber-100/90 leading-relaxed">{currentQ.explanation}</p>
                 {currentQ.reference && (
-                  <p className="text-[11px] text-slate-600 italic mt-2">Nguồn: {currentQ.reference}</p>
+                  <p className="text-[11px] text-amber-100/60 italic mt-2">Nguồn: {currentQ.reference}</p>
                 )}
               </div>
             )}
@@ -498,10 +498,10 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
         </div>
 
         {/* Sidebar Question Matrix Grid */}
-        <div className="glass-panel p-5 border border-slate-900/10 h-fit">
-          <h4 className="font-platypi text-sm font-bold text-slate-900 mb-3 flex items-center gap-1.5">
-            <Award className="w-4 h-4 text-amber-600" />
-            <span>Bảng 20 Câu Hỏi:</span>
+        <div className="glass-panel p-5 border border-amber-500/20 bg-black/40 h-fit">
+          <h4 className="font-platypi text-sm font-bold text-amber-400 mb-3 flex items-center gap-1.5">
+            <Award className="w-4 h-4 text-amber-500" />
+            <span>Bảng {currentQuestions.length} Câu Hỏi:</span>
           </h4>
 
           <div className="grid grid-cols-5 gap-2 mb-4">
@@ -510,12 +510,12 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
               const isCurrent = currentIndex === idx;
               const hasFlag = flaggedQuestions[q.id];
 
-              let cellStyle = 'bg-slate-900/5 border-slate-900/10 text-slate-600 hover:text-slate-900';
+              let cellStyle = 'bg-black/60 border-amber-500/20 text-amber-100/70 hover:text-amber-400 hover:bg-black/80';
               if (ans !== undefined) {
-                cellStyle = 'bg-emerald-500/20 border-emerald-500/40 text-emerald-600 font-semibold';
+                cellStyle = 'bg-emerald-500/20 border-emerald-500/40 text-emerald-400 font-semibold';
               }
               if (hasFlag) {
-                cellStyle = 'bg-amber-500/30 border-amber-500 text-amber-600 font-bold';
+                cellStyle = 'bg-amber-500/30 border-amber-500 text-amber-400 font-bold';
               }
               if (isCurrent) {
                 cellStyle += ' ring-2 ring-amber-400';
@@ -533,7 +533,7 @@ export default function QuizEngine({ quizzes, chapters, initialChapterId = 'all'
             })}
           </div>
 
-          <div className="space-y-1.5 text-[11px] text-slate-600 border-t border-slate-900/10 pt-3">
+          <div className="space-y-1.5 text-[11px] text-amber-100/60 border-t border-amber-500/20 pt-3">
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-emerald-500/30 border border-emerald-500/50"></span>
               <span>Đã làm ({Object.keys(userAnswers).length})</span>
